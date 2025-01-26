@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>网站 on wzy朔夜观星</title>
+        <link>https://wzy-yaemiko.top/tags/%E7%BD%91%E7%AB%99/</link>
+        <description>Recent content in 网站 on wzy朔夜观星</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>wzy朔夜观星</copyright>
+        <lastBuildDate>Sun, 26 Jan 2025 21:54:44 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo网站创建事项</title>
+        <link>https://wzy-yaemiko.top/p/hugo%E7%BD%91%E7%AB%99%E5%88%9B%E5%BB%BA%E4%BA%8B%E9%A1%B9/</link>
+        <pubDate>Sun, 26 Jan 2025 21:54:44 +0800</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/p/hugo%E7%BD%91%E7%AB%99%E5%88%9B%E5%BB%BA%E4%BA%8B%E9%A1%B9/</guid>
+        <description>&lt;img src="https://wzy-yaemiko.top/p/hugo%E7%BD%91%E7%AB%99%E5%88%9B%E5%BB%BA%E4%BA%8B%E9%A1%B9/2025-01-26%2021.58.00.png" alt="Featured image of post Hugo网站创建事项" /&gt;&lt;h2 id=&#34;主体功能&#34;&gt;主体功能
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;启动静态网页&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hugo server &amp;ndash;buildDrafts&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;重新生成public文件&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hugo -D&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;我的博客托管的存储库(Github)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;wzy-YaeMiko.github.io&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;创建文章&#34;&gt;创建文章
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;创建一篇文章叫myFirstBlog&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hugo new content post/myFirstBlog/index.md&lt;/p&gt;
+&lt;p&gt;文章在 content/post/myFirstBlog&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文章修改&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;-&amp;ndash;&lt;/p&gt;
+&lt;p&gt;date = &amp;lsquo;2025-01-26T20:25:15+08:00&amp;rsquo; //创建时间&lt;/p&gt;
+&lt;p&gt;draft = true // 草稿&lt;/p&gt;
+&lt;p&gt;title = &amp;lsquo;数通基础&amp;rsquo; //标题&lt;/p&gt;
+&lt;p&gt;Categories=[&amp;ldquo;数据通信&amp;rdquo;] //类别&lt;/p&gt;
+&lt;p&gt;Tags= [&amp;ldquo;hica&amp;rdquo;, &amp;ldquo;初级&amp;rdquo;] //标签&lt;/p&gt;
+&lt;p&gt;image = &amp;ldquo;IMG_0993.JPG&amp;rdquo; //上面和页面的图片&lt;/p&gt;
+&lt;p&gt;-&amp;ndash;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;图片放的位置&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;content/post/myFirstBlog里面&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;创建归档&#34;&gt;创建归档
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;创建一个归档叫&amp;quot;数据通信&amp;quot;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 content/categories中创建一个叫&amp;quot;数据通信&amp;quot;的文件夹&lt;/p&gt;
+&lt;p&gt;在&amp;quot;数据通信&amp;quot;的文件夹中创建一个_index.md的markdown文件&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;归档编写&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;-&amp;ndash;&lt;/p&gt;
+&lt;p&gt;title: &amp;ldquo;数据通信&amp;rdquo; //标题&lt;/p&gt;
+&lt;p&gt;description: &amp;ldquo;This is an example category&amp;rdquo; //归档留言&lt;/p&gt;
+&lt;p&gt;slug: &amp;ldquo;test&amp;rdquo; //关键词&lt;/p&gt;
+&lt;p&gt;image: &amp;ldquo;xiaogong.jpg&amp;rdquo; //归档表面的图片&lt;/p&gt;
+&lt;p&gt;style:&lt;/p&gt;
+&lt;p&gt;​    background: &amp;ldquo;#f1faee&amp;rdquo; //图片的背景颜色&lt;/p&gt;
+&lt;p&gt;​    color: &amp;ldquo;#fff&amp;rdquo; //归档的外框颜色&lt;/p&gt;
+&lt;p&gt;-&amp;ndash;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;图片放的位置&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;content/categories/数据通信里面&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
