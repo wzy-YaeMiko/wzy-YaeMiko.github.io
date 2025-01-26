@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>wzy朔夜观星</title>
+        <link>https://wzy-yaemiko.top/</link>
+        <description>Recent content on wzy朔夜观星</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>wzy朔夜观星</copyright>
+        <lastBuildDate>Sun, 26 Jan 2025 20:25:15 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>数通基础</title>
+        <link>https://wzy-yaemiko.top/p/%E6%95%B0%E9%80%9A%E5%9F%BA%E7%A1%80/</link>
+        <pubDate>Sun, 26 Jan 2025 20:25:15 +0800</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/p/%E6%95%B0%E9%80%9A%E5%9F%BA%E7%A1%80/</guid>
+        <description>&lt;img src="https://wzy-yaemiko.top/p/%E6%95%B0%E9%80%9A%E5%9F%BA%E7%A1%80/IMG_0993.JPG" alt="Featured image of post 数通基础" /&gt;&lt;h2 id=&#34;什么是网络&#34;&gt;什么是网络？
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;网络的本质就是实现资源共享。&lt;/li&gt;
+&lt;li&gt;将各个系统联系到一起，形成了信息传递、接收、共享的信息交互平台。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;家庭网络&#34;&gt;家庭网络
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://371103.xyz/PicGo/%e5%ae%b6%e5%ba%ad%e7%bd%91%e7%bb%9c.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;家庭网络.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;现在基本光纤入户&lt;/li&gt;
+&lt;li&gt;装修前会留一些信息点(带网口的无线面板AP)&lt;/li&gt;
+&lt;li&gt;宽带路由器一般包含：
+&lt;ul&gt;
+&lt;li&gt;WAN：外部广域网&lt;/li&gt;
+&lt;li&gt;LAN：内部局域网&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;常见的网络技术&#34;&gt;常见的网络技术
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;地址技术：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MAC地址/物理地址 ：厂商出厂时写入网卡里面的地址由网络硬件厂商编号和网卡序列号组成。
+IP地址：包含ipv4地址和ipv6地址
+&lt;img src=&#34;https://371103.xyz/PicGo/20250121214421088.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;地址请求技术：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ARP：地址解析协议
+&lt;blockquote&gt;
+&lt;p&gt;包里要包含源和目地的ip和mac而arp技术就是来获取对方的mac地址的&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;地址分配技术：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DHCP技术&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;地址解析技术：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DNS解析技术
+&lt;blockquote&gt;
+&lt;p&gt;将域名与ip可以相互解析&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;地址转换技术：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NAT技术：
+&lt;blockquote&gt;
+&lt;p&gt;公网ip和私网ip&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;地址测试技术：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ICMP技术：
+&lt;blockquote&gt;
+&lt;p&gt;ping
+&lt;img src=&#34;https://371103.xyz/PicGo/20250121214320673.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;数通网络介绍data-communication-network&#34;&gt;数通网络介绍：Data Communication Network
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;网络永远的核心路由交换&lt;/li&gt;
+&lt;li&gt;一个典型的数通网络通常由AR路由器、交换机、防火墙USG、无线控制器AC、无线接入点AP、(上网行为管理ASG、入侵防御/入侵检测IPS&amp;amp;IDS)、个人电脑、打印机、服务器等设备构成的通信网络，再结合各种网络协议来实现数据互通。&lt;/li&gt;
+&lt;li&gt;网络拓扑图就是用来呈现出一个数通网络的结构化布局。
+&lt;img src=&#34;https://371103.xyz/PicGo/%e6%95%b0%e9%80%9a%e5%9b%be%e6%a0%87.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;典型连锁酒店(两层交换机)
+&lt;img src=&#34;https://371103.xyz/PicGo/%e8%bf%9e%e9%94%81%e9%85%92%e5%ba%97.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;中小教育(三层交换机)
+&lt;img src=&#34;https://371103.xyz/PicGo/%e4%b8%ad%e5%b0%8f%e6%95%99%e8%82%b2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;中小企业办公
+&lt;img src=&#34;https://371103.xyz/PicGo/%e4%b8%ad%e5%b0%8f%e4%bc%81%e4%b8%9a%e5%8a%9e%e5%85%ac.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;连锁超市
+&lt;img src=&#34;https://371103.xyz/PicGo/%e8%bf%9e%e9%94%81%e8%b6%85%e5%b8%82.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;网络设备介绍&#34;&gt;网络设备介绍
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;交换机：主要根据&lt;font color=&#34;#ff0000&#34;&gt;mac地址表&lt;/font&gt;转发数据帧[二层转发]。
+&lt;img src=&#34;https://371103.xyz/PicGo/%e4%ba%a4%e6%8d%a2%e6%9c%ba.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;路由器：主要根据&lt;font color=&#34;#ff0000&#34;&gt;IP路由表&lt;/font&gt;转发不同网段的数据包[三层路由]。
+&lt;ul&gt;
+&lt;li&gt;路由器是&lt;font color=&#34;#ffff00&#34;&gt;门&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;不同的网络代表不同的&lt;font color=&#34;#ffff00&#34;&gt;房间&lt;/font&gt;
+&lt;img src=&#34;https://371103.xyz/PicGo/%e8%b7%af%e7%94%b1%e5%99%a8.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;防火墙：主要根据各种&lt;font color=&#34;#ff0000&#34;&gt;安全策略&lt;/font&gt;对网络的访问行为进行控制。
+&lt;img src=&#34;https://371103.xyz/PicGo/%e9%98%b2%e7%81%ab%e5%a2%99.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;交换机vs路由器vs防火墙
+&lt;img src=&#34;https://371103.xyz/PicGo/%e4%ba%a4%e6%8d%a2%e6%9c%bavs%e8%b7%af%e7%94%b1%e5%99%a8vs%e9%98%b2%e7%81%ab%e5%a2%99.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;以交换机为例
+&lt;img src=&#34;https://371103.xyz/PicGo/20250119135948986.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;交换机的选择
+&lt;img src=&#34;https://371103.xyz/PicGo/%e4%ba%a4%e6%8d%a2%e6%9c%ba%e7%9a%84%e9%80%89%e6%8b%a9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;家用消费级交换机：傻瓜操作、开箱即用、非管理型。&lt;/li&gt;
+&lt;li&gt;企业专业级交换机：需要专业人士调配，网管型。&lt;/li&gt;
+&lt;li&gt;网管型设备登录和配置：
+&lt;ul&gt;
+&lt;li&gt;命令行 ：
+&lt;ul&gt;
+&lt;li&gt;console登录&lt;/li&gt;
+&lt;li&gt;Telnet登录&lt;/li&gt;
+&lt;li&gt;SHH登录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Web登录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;网络性能指标&#34;&gt;网络性能指标
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;带宽：&lt;font color=&#34;#ff0000&#34;&gt;bandwidth&lt;/font&gt;
+&lt;ul&gt;
+&lt;li&gt;描述在&lt;font color=&#34;#00b0f0&#34;&gt;单位时间内传输的数据量&lt;/font&gt;，衡量传输速率。&lt;/li&gt;
+&lt;li&gt;单位=bps(bit per second,比特每秒)。
+&lt;ul&gt;
+&lt;li&gt;带宽是小b&lt;/li&gt;
+&lt;li&gt;8 b=1 B &lt;font color=&#34;#ffc000&#34;&gt;按照10倍算&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;B=Byte=字节=文件大小单位&lt;/li&gt;
+&lt;li&gt;k m g t p z e&lt;/li&gt;
+&lt;li&gt;1024倍 &lt;font color=&#34;#ffc000&#34;&gt;按照1000倍算&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;2TB硬盘  500GB电影&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;端到端最大可用带宽=所有链路最低的带宽。&lt;/li&gt;
+&lt;li&gt;宽带与带宽：满足一定指标的带宽叫宽带。
+&lt;blockquote&gt;
+&lt;p&gt;家中宽带一般上下行不对等
+带宽好比车道的宽度，跑的一样快都是光速。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;延迟：&lt;font color=&#34;#ff0000&#34;&gt;delay &lt;/font&gt;
+&lt;ul&gt;
+&lt;li&gt;描述数据传输所&lt;font color=&#34;#00b0f0&#34;&gt;经历的时间&lt;/font&gt;，衡量时效性。&lt;/li&gt;
+&lt;li&gt;单位 = ms[毫秒]。&lt;/li&gt;
+&lt;li&gt;端到端的延迟 = 所以延迟的总和。&lt;/li&gt;
+&lt;li&gt;延迟会有很多原因：网络拥堵、设备资源占用率高。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;抖动和丢包：&lt;font color=&#34;#ff0000&#34;&gt;Jitter、Loss&lt;/font&gt;
+&lt;ul&gt;
+&lt;li&gt;衡量&lt;font color=&#34;#00b0f0&#34;&gt;稳定性和可靠性 &lt;/font&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;带宽和延迟的关系
+&lt;ul&gt;
+&lt;li&gt;&lt;font color=&#34;#ffc000&#34;&gt;可能有关系可能没关系，具体情况具体分析&lt;/font&gt;；&lt;/li&gt;
+&lt;li&gt;专线比普通宽带可能好一些。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>归档</title>
+        <link>https://wzy-yaemiko.top/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://wzy-yaemiko.top/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;p&gt;Hey，我是朔夜观星（wzy），一个略懂信息与通信和各类语言编程的斜杆青年，目前是一名在校大学生。&lt;/p&gt;
+&lt;h2 id=&#34;教育经历&#34;&gt;教育经历
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;新疆财经大学 计算机科学与技术专业 本科在读&lt;/li&gt;
+&lt;li&gt;学号：2023100985&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;技术栈&#34;&gt;技术栈
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;信息与通信：通信原理、通信网络、云计算&lt;/li&gt;
+&lt;li&gt;编程语言：Java、Python、C/C++&lt;/li&gt;
+&lt;li&gt;其他：Git、Linux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;兴趣爱好&#34;&gt;兴趣爱好
+&lt;/h2&gt;&lt;p&gt;目前的活动范围主要在：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;B站：一名普通的b站用户&lt;/li&gt;
+&lt;li&gt;GitHub：自己博客的搭建运维&lt;/li&gt;
+&lt;li&gt;CSDN：技术博客写作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;网络居住地&#34;&gt;网络居住地
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a class=&#34;link&#34; href=&#34;https://github.com/WangZhaoYang985&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;WangZhaoYang985&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bilibili: &lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/3494359427189622&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;朔夜观星&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CSDN: &lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/2305_79889223&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;朔夜观星&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;座右铭&#34;&gt;座右铭
+&lt;/h2&gt;&lt;p&gt;人因梦想而伟大，又因梦想而成长！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>技术链接</title>
+        <link>https://wzy-yaemiko.top/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://wzy-yaemiko.top/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
