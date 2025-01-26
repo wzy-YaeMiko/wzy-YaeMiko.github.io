@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>wzy朔夜观星</title>
-        <link>https://wzy-yaemiko.top/</link>
+        <link>https://wzy-yaemiko.github.io/</link>
         <description>Recent content on wzy朔夜观星</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>wzy朔夜观星</copyright>
-        <lastBuildDate>Sun, 26 Jan 2025 21:54:44 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 26 Jan 2025 21:54:44 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hugo网站创建事项</title>
-        <link>https://wzy-yaemiko.top/p/hugo%E7%BD%91%E7%AB%99%E5%88%9B%E5%BB%BA%E4%BA%8B%E9%A1%B9/</link>
+        <link>https://wzy-yaemiko.github.io/p/hugo%E7%BD%91%E7%AB%99%E5%88%9B%E5%BB%BA%E4%BA%8B%E9%A1%B9/</link>
         <pubDate>Sun, 26 Jan 2025 21:54:44 +0800</pubDate>
         
-        <guid>https://wzy-yaemiko.top/p/hugo%E7%BD%91%E7%AB%99%E5%88%9B%E5%BB%BA%E4%BA%8B%E9%A1%B9/</guid>
-        <description>&lt;img src="https://wzy-yaemiko.top/p/hugo%E7%BD%91%E7%AB%99%E5%88%9B%E5%BB%BA%E4%BA%8B%E9%A1%B9/2025-01-26%2021.58.00.png" alt="Featured image of post Hugo网站创建事项" /&gt;&lt;h2 id=&#34;主体功能&#34;&gt;主体功能
+        <guid>https://wzy-yaemiko.github.io/p/hugo%E7%BD%91%E7%AB%99%E5%88%9B%E5%BB%BA%E4%BA%8B%E9%A1%B9/</guid>
+        <description>&lt;img src="https://wzy-yaemiko.github.io/p/hugo%E7%BD%91%E7%AB%99%E5%88%9B%E5%BB%BA%E4%BA%8B%E9%A1%B9/2025-01-26%2021.58.00.png" alt="Featured image of post Hugo网站创建事项" /&gt;&lt;h2 id=&#34;主体功能&#34;&gt;主体功能
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;启动静态网页&lt;/p&gt;
@@ -97,11 +97,11 @@
         </item>
         <item>
         <title>数通基础</title>
-        <link>https://wzy-yaemiko.top/p/%E6%95%B0%E9%80%9A%E5%9F%BA%E7%A1%80/</link>
+        <link>https://wzy-yaemiko.github.io/p/%E6%95%B0%E9%80%9A%E5%9F%BA%E7%A1%80/</link>
         <pubDate>Sun, 26 Jan 2025 20:25:15 +0800</pubDate>
         
-        <guid>https://wzy-yaemiko.top/p/%E6%95%B0%E9%80%9A%E5%9F%BA%E7%A1%80/</guid>
-        <description>&lt;img src="https://wzy-yaemiko.top/p/%E6%95%B0%E9%80%9A%E5%9F%BA%E7%A1%80/IMG_0993.JPG" alt="Featured image of post 数通基础" /&gt;&lt;h2 id=&#34;什么是网络&#34;&gt;什么是网络？
+        <guid>https://wzy-yaemiko.github.io/p/%E6%95%B0%E9%80%9A%E5%9F%BA%E7%A1%80/</guid>
+        <description>&lt;img src="https://wzy-yaemiko.github.io/p/%E6%95%B0%E9%80%9A%E5%9F%BA%E7%A1%80/IMG_0993.JPG" alt="Featured image of post 数通基础" /&gt;&lt;h2 id=&#34;什么是网络&#34;&gt;什么是网络？
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;网络的本质就是实现资源共享。&lt;/li&gt;
 &lt;li&gt;将各个系统联系到一起，形成了信息传递、接收、共享的信息交互平台。&lt;/li&gt;
@@ -399,18 +399,18 @@ IP地址：包含ipv4地址和ipv6地址
         </item>
         <item>
         <title>归档</title>
-        <link>https://wzy-yaemiko.top/archives/</link>
+        <link>https://wzy-yaemiko.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://wzy-yaemiko.top/archives/</guid>
+        <guid>https://wzy-yaemiko.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://wzy-yaemiko.top/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://wzy-yaemiko.github.io/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://wzy-yaemiko.top/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://wzy-yaemiko.github.io/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;Hey，我是朔夜观星（wzy），一个略懂信息与通信和各类语言编程的斜杆青年，目前是一名在校大学生。&lt;/p&gt;
 &lt;h2 id=&#34;教育经历&#34;&gt;教育经历
 &lt;/h2&gt;&lt;ul&gt;
@@ -445,18 +445,18 @@ IP地址：包含ipv4地址和ipv6地址
         </item>
         <item>
         <title>技术链接</title>
-        <link>https://wzy-yaemiko.top/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</link>
+        <link>https://wzy-yaemiko.github.io/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://wzy-yaemiko.top/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</guid>
+        <guid>https://wzy-yaemiko.github.io/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</guid>
         <description></description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://wzy-yaemiko.top/search/</link>
+        <link>https://wzy-yaemiko.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://wzy-yaemiko.top/search/</guid>
+        <guid>https://wzy-yaemiko.github.io/search/</guid>
         <description></description>
         </item>
         
