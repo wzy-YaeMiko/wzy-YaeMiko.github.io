@@ -7,7 +7,32 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>wzy朔夜观星</copyright>
-        <lastBuildDate>Sun, 26 Jan 2025 21:54:44 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.github.io/categories/%E9%9A%8F%E5%BF%83%E6%BC%AB%E8%AF%9D/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 27 Jan 2025 12:15:03 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.github.io/categories/%E9%9A%8F%E5%BF%83%E6%BC%AB%E8%AF%9D/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>苹果Sonoma系统动态壁纸存储路径</title>
+        <link>https://wzy-yaemiko.github.io/p/%E8%8B%B9%E6%9E%9Csonoma%E7%B3%BB%E7%BB%9F%E5%8A%A8%E6%80%81%E5%A3%81%E7%BA%B8%E5%AD%98%E5%82%A8%E8%B7%AF%E5%BE%84/</link>
+        <pubDate>Mon, 27 Jan 2025 12:15:03 +0800</pubDate>
+        
+        <guid>https://wzy-yaemiko.github.io/p/%E8%8B%B9%E6%9E%9Csonoma%E7%B3%BB%E7%BB%9F%E5%8A%A8%E6%80%81%E5%A3%81%E7%BA%B8%E5%AD%98%E5%82%A8%E8%B7%AF%E5%BE%84/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;macOS Sonoma动态壁纸存储路径&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;回到桌面，按键盘 shift + command + c 打开macintosh磁盘，依次打开 资源库 &amp;gt; Application Support &amp;gt; com.apple.idleassetsd &amp;gt; Customer &amp;gt; 4KSDR240FPS ,里面存放的.mov的文件即是动态壁纸文件。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>解决MAC安装软件是显示app已损坏的方法</title>
+        <link>https://wzy-yaemiko.github.io/p/%E8%A7%A3%E5%86%B3mac%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E6%98%AF%E6%98%BE%E7%A4%BAapp%E5%B7%B2%E6%8D%9F%E5%9D%8F%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Mon, 27 Jan 2025 12:12:01 +0800</pubDate>
+        
+        <guid>https://wzy-yaemiko.github.io/p/%E8%A7%A3%E5%86%B3mac%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E6%98%AF%E6%98%BE%E7%A4%BAapp%E5%B7%B2%E6%8D%9F%E5%9D%8F%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;解决MAC安装软件是显示app已损坏的方法&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;输入以下命令：&lt;strong&gt;【sudo xattr -rd com.apple.quarantine /Applications/xxx.app】&lt;/strong&gt;，将“xxx.app”换成你要安装的APP的名称，比如**”sudo xattr -rd com.apple.quarantine /Applications/photoshop.app”**，点击回车&lt;/p&gt;
+&lt;p&gt;或输入**【sudo xattr -rd com.apple.quarantine 】**后将你需要安装的应用程序拖入终端，点击回车（&lt;strong&gt;注意：quarantine后面一定要有个空格！！&lt;/strong&gt;）&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Hugo网站创建事项</title>
         <link>https://wzy-yaemiko.github.io/p/hugo%E7%BD%91%E7%AB%99%E5%88%9B%E5%BB%BA%E4%BA%8B%E9%A1%B9/</link>
         <pubDate>Sun, 26 Jan 2025 21:54:44 +0800</pubDate>
