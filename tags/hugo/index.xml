@@ -18,20 +18,17 @@
 &lt;li&gt;
 &lt;p&gt;启动静态网页&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;hugo server &amp;ndash;buildDrafts&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;hugo server &amp;ndash;buildDrafts&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;重新生成public文件&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;hugo -D&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;hugo -D&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;我的博客托管的存储库(Github)&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;wzy-YaeMiko.github.io&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;wzy-YaeMiko.github.io&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;创建文章&#34;&gt;创建文章
@@ -40,8 +37,7 @@
 &lt;p&gt;创建一篇文章叫myFirstBlog&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;hugo new content post/myFirstBlog/index.md&lt;/p&gt;
-&lt;p&gt;文章在 content/post/myFirstBlog&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;文章在 content/post/myFirstBlog&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;文章修改&lt;/p&gt;
@@ -53,14 +49,12 @@
 &lt;p&gt;Categories=[&amp;ldquo;数据通信&amp;rdquo;] //类别&lt;/p&gt;
 &lt;p&gt;Tags= [&amp;ldquo;hica&amp;rdquo;, &amp;ldquo;初级&amp;rdquo;] //标签&lt;/p&gt;
 &lt;p&gt;image = &amp;ldquo;IMG_0993.JPG&amp;rdquo; //上面和页面的图片&lt;/p&gt;
-&lt;p&gt;-&amp;ndash;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;-&amp;ndash;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;图片放的位置&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;content/post/myFirstBlog里面&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;content/post/myFirstBlog里面&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;创建归档&#34;&gt;创建归档
@@ -69,8 +63,7 @@
 &lt;p&gt;创建一个归档叫&amp;quot;数据通信&amp;quot;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;在 content/categories中创建一个叫&amp;quot;数据通信&amp;quot;的文件夹&lt;/p&gt;
-&lt;p&gt;在&amp;quot;数据通信&amp;quot;的文件夹中创建一个_index.md的markdown文件&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;在&amp;quot;数据通信&amp;quot;的文件夹中创建一个_index.md的markdown文件&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;归档编写&lt;/p&gt;
@@ -83,14 +76,12 @@
 &lt;p&gt;style:&lt;/p&gt;
 &lt;p&gt;​    background: &amp;ldquo;#f1faee&amp;rdquo; //图片的背景颜色&lt;/p&gt;
 &lt;p&gt;​    color: &amp;ldquo;#fff&amp;rdquo; //归档的外框颜色&lt;/p&gt;
-&lt;p&gt;-&amp;ndash;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;-&amp;ndash;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;图片放的位置&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;content/categories/数据通信里面&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;content/categories/数据通信里面&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
