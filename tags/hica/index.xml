@@ -7,7 +7,321 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>wzy朔夜观星</copyright>
-        <lastBuildDate>Thu, 06 Feb 2025 17:16:49 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/tags/hica/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 14 Feb 2025 21:37:33 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/tags/hica/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>应用层</title>
+        <link>https://wzy-yaemiko.top/p/%E5%BA%94%E7%94%A8%E5%B1%82/</link>
+        <pubDate>Fri, 14 Feb 2025 21:37:33 +0800</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/p/%E5%BA%94%E7%94%A8%E5%B1%82/</guid>
+        <description>&lt;img src="https://wzy-yaemiko.top/p/%E5%BA%94%E7%94%A8%E5%B1%82/%E5%93%AA%E5%90%92100%E4%BA%BF.jpg" alt="Featured image of post 应用层" /&gt;&lt;h1 id=&#34;应用层&#34;&gt;应用层：
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;为应用软件提供接口，使应用程序能够使用&lt;font color=&#34;#ff0000&#34;&gt;网络服务&lt;/font&gt;。
+关于架构：&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;#ff0000&#34;&gt;Client: 客户端，访问服务。&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;#0070c0&#34;&gt; Server: 服务端，提供服务。&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;C/S架构: Client/Server，客户端/服务端。&lt;/li&gt;
+&lt;li&gt;B/S架构: Browser/Server，浏览器/服务端。
+为什么需要域名：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dns-domain-name-system-域名解析系统&#34;&gt;DNS: Domain Name System 域名解析系统
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;负责解析IP地址与域名之间的映射关系。&lt;/li&gt;
+&lt;li&gt;正向解析：将域名解析为IP地址【Domain-&amp;gt;IP】。&lt;/li&gt;
+&lt;li&gt;反向解析：将IP地址解析为域名【IP-&amp;gt;Domain】。&lt;/li&gt;
+&lt;li&gt;ping是网络层的 ，所以它pingDNS服务器ping不通，因为它发的是网络层的包，而且DNS是应用层的。&lt;/li&gt;
+&lt;li&gt;icmp是ping的包
+域名的结构：FQDN【完全合格域名】&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个域名的读法是从左向右读的，但是它的结构是从右往左去展开的&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;一个域名可以有多个IP地址&lt;/li&gt;
+&lt;li&gt;一个IP地址可以有多个域名&lt;/li&gt;
+&lt;li&gt;一台服务器可做多个角色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;根(root)域&lt;/strong&gt; &lt;center&gt;&lt;font color=&#34;#0070c0&#34;&gt;.&lt;/font&gt;&lt;/center&gt;
+&lt;strong&gt;顶级域名&lt;/strong&gt; &lt;center&gt;&lt;font color=&#34;#0070c0&#34;&gt;.com .net .cn .edu .org .gov&lt;/font&gt;&lt;/center&gt;
+&lt;strong&gt;二级域名&lt;/strong&gt; &lt;center&gt;&lt;font color=&#34;#0070c0&#34;&gt;189&lt;/font&gt;&lt;/center&gt;
+&lt;strong&gt;主机名&lt;/strong&gt; &lt;center&gt;&lt;font color=&#34;#0070c0&#34;&gt;www&lt;/font&gt; -&amp;gt;&lt;font color=&#34;#ff0000&#34;&gt;该主机的FQDN为：www.189.cn.&lt;/font&gt;&lt;/center&gt;
+记录类型：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A 将域名指向一个IPv4地址&lt;/li&gt;
+&lt;li&gt;AAAA将域名指向一个IPv6地址&lt;/li&gt;
+&lt;li&gt;CNAME将一个域名指向另一个域名&lt;/li&gt;
+&lt;li&gt;MX将域名指向邮件服务器地址，用于电子邮件系统发邮件时根据收信人的地址后缀来定位邮件服务器地址。
+DNS查询过程：
+&lt;img src=&#34;https://371103.xyz/PicGo/20250210141823865.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;center&gt;DNS查询方式&lt;/center&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;说明&lt;/center&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#7030a0&#34;&gt;递归查询&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;一般发生在&lt;font color=&#34;#ff0000&#34;&gt;客户端&lt;/font&gt;与&lt;font color=&#34;#0070c0&#34;&gt;本地服务端&lt;/font&gt;。                                                                           只发一次请求，要求对方给出&lt;font color=&#34;#ff0000&#34;&gt;最终结果&lt;/font&gt;。                                                               结果只有两种：查询成功或查询失败&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#00b050&#34;&gt;迭代查询&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;一般发生在&lt;font color=&#34;#0070c0&#34;&gt;本地服务端&lt;/font&gt;与&lt;font color=&#34;#ff0000&#34;&gt;外网服务端&lt;/font&gt;。                                                                    发出一次请求，对方如果&lt;font color=&#34;#ff0000&#34;&gt;没有授权回答&lt;/font&gt;，它就会返回一个能解答这个查询的&lt;font color=&#34;#ff0000&#34;&gt;其他服务器列表&lt;/font&gt;，客户端会再向返回的列表中发出请求，直到找到最终负责所查域名的名称服务器。                                                                                                          又称作重指引，返回的是最佳的查询点或者主机地址。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;font color=&#34;#ffc000&#34;&gt;授权回答&lt;/font&gt;：向服务器查询域名时，刚好这个域名是本服务器负责，返回的结果就是授权回答。
+如何获得权威回答：&lt;/li&gt;
+&lt;li&gt;解析域名服务器获取域名服务器的IP地址&lt;/li&gt;
+&lt;li&gt;通过server+IP地址命令临时把DNS服务器改为域名服务器&lt;/li&gt;
+&lt;li&gt;然后再解析域名就获得了权威回答&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;抓包&#34;&gt;抓包：
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://371103.xyz/PicGo/20250211152902991.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://371103.xyz/PicGo/20250211153204109.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;给你回复了几种ip代表你进行了多少种不同的请求&lt;/li&gt;
+&lt;li&gt;查询/响应：查询为0/响应为1&lt;/li&gt;
+&lt;li&gt;是否获得了域名解析看答案数/附加答案数，若无则为0&lt;/li&gt;
+&lt;li&gt;IPv4地址请求对应的类型type是1&lt;/li&gt;
+&lt;li&gt;IPv6地址请求对应的类型type是28&lt;/li&gt;
+&lt;li&gt;权威/非权威：权限回答灯是否亮起，亮起表示这个字段里面二进制位置一/权限资源答案数1代表它是非权威的还要去找权威服务器&lt;/li&gt;
+&lt;li&gt;权限资源记录集中的服务器主名称：为域名的权威服务器&lt;/li&gt;
+&lt;li&gt;当数据包无法到达目标时,路由器会返回ICMP报文(如类型3「目标不可达」),包含具体错误代码(如端口不可达、协议不可达等)。&lt;/li&gt;
+&lt;li&gt;域名解析出来不一定能通，因为可能ip地址是假的
+CDN加速原理：&lt;/li&gt;
+&lt;li&gt;CDN是内容分发网络,通过将内容缓存到离用户更近的节点来加速访问。&lt;/li&gt;
+&lt;li&gt;第一步给你一个加速域名，然后你通过设置CNAME（别名）记录将用户访问的别名指向加速域名&lt;/li&gt;
+&lt;li&gt;然后用户访问别名DNS查询首先会解析出该别名对应的加速域名，加速域名会通过DNS解析到一个&lt;strong&gt;全局负载均衡器&lt;/strong&gt;（GSLB）。&lt;/li&gt;
+&lt;li&gt;GSLB负责根据多个因素（例如用户的地理位置、服务器的负载、网络延迟等）选择最佳的边缘节点进行响应，GSLB会返回一个最适合用户请求的CDN节点的IP地址。这个节点通常是离用户地理位置最近、负载最轻的服务器。&lt;/li&gt;
+&lt;li&gt;根据DNS解析和GSLB的决策，用户最终会得到一个指向最近、最优的CDN边缘节点的IP地址。用户通过该IP与CDN节点进行通信，从而加速获取网站内容。
+Windows相关命令：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;center&gt;命令&lt;/center&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;备注&lt;/center&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;center&gt;nslookup&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;DNS调试工具&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;center&gt;ipconfig/displaydns&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;查看DNS缓存&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;center&gt;ipconfig/flushdns&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;清空DNS缓存&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;http-hypertext-transfer-protocol超文本传输协议&#34;&gt;HTTP: Hypertext Transfer Protocol,超文本传输协议
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;互联网上应用最为广泛的一种网络协议。&lt;/li&gt;
+&lt;li&gt;设计HTTP最初的目的是为了提供了一种发布和接收HTML页面的方法。&lt;/li&gt;
+&lt;li&gt;当在浏览器输入URL后，从服务器获取HTML文件呈现出内容。
+&lt;ul&gt;
+&lt;li&gt;HTTP请求&lt;/li&gt;
+&lt;li&gt;HTTP响应&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;HTTP vs HTTPS:
+&lt;ul&gt;
+&lt;li&gt;HTTP:是一种用于分布式、协作式和超媒体信息系统的应用层协议
+&lt;ul&gt;
+&lt;li&gt;默认工作在TCP协议80端口&lt;/li&gt;
+&lt;li&gt;http://开头访问服务&lt;/li&gt;
+&lt;li&gt;HTTP协议以明文方式发送内容，不提供任何方式的数据加密&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;HTTPS=HTTP+SSL:基于SSL协议的网站加密传输协议，是HTTP的安全版
+&lt;ul&gt;
+&lt;li&gt;默认工作在TCP协议的443端口&lt;/li&gt;
+&lt;li&gt;https://开头访问服务&lt;/li&gt;
+&lt;li&gt;数据传输过程是加密的，安全性较好，提供对网站服务器的身份认证，保护交换数据的隐私与完整性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;下面是常见的 HTTP 状态码：
+&lt;ul&gt;
+&lt;li&gt;1xx（信息性状态码）：表示接收的请求正在处理。&lt;/li&gt;
+&lt;li&gt;2xx（成功状态码）：表示请求正常处理完毕。//200表示OK&lt;/li&gt;
+&lt;li&gt;3xx（重定向状态码）：需要后续操作才能完成这一请求。&lt;/li&gt;
+&lt;li&gt;4xx（客户端错误状态码）：表示请求包含语法错误或无法完成。&lt;/li&gt;
+&lt;li&gt;5xx（服务器错误状态码）：服务器在处理请求的过程中发生了错误。
+例子：
+403/Forbidden：服务器理解请求客户端的请求，但是拒绝执行此请求。
+404/Not Found：服务器无法根据客户端的请求找到资源（网页）。通过此代码，网站设计人员可设置&amp;quot;您所请求的资源无法找到&amp;quot;的个性页面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;程序员最想看到的：200-OK。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;程序员不想看到的：500-Internal-Server-Error。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用户不想看到的：401-Unauthorized、403-Forbidden、408-Request-Time-out、404-not-found。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HTTP 常用  请求方法：&lt;/li&gt;
+&lt;li&gt;GET：从服务器获取资源。用于请求数据而不对数据进行更改。例如，从服务器获取网页、图片等。&lt;/li&gt;
+&lt;li&gt;POST：向服务器发送数据以创建新资源。常用于提交表单数据或上传文件。发送的数据包含在请求体中。&lt;/li&gt;
+&lt;li&gt;PUT：向服务器发送数据以更新现有资源。如果资源不存在，则创建新的资源。与 POST 不同，PUT 通常是幂等的，即多次执行相同的 PUT 请求不会产生不同的结果。&lt;/li&gt;
+&lt;li&gt;DELETE：从服务器删除指定的资源。请求中包含要删除的资源标识符。&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;抓包-1&#34;&gt;抓包：
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://371103.xyz/PicGo/20250212144241943.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;请求方法： get&lt;/li&gt;
+&lt;li&gt;版本： HTTP/1.1&lt;/li&gt;
+&lt;li&gt;客户端应用程序信息【User-Agent】:包含你的客户端的关键信息。
+&lt;ul&gt;
+&lt;li&gt;UserAgent是指浏览器,它的信息包括硬件平台、系统软件、应用软件和用户个人偏好，通过UA可以分析出浏览器名称、浏览器版本号、渲染引擎、操作系统。使用方法直接打开查看即可，也可以把其它浏览器的UA复制过来进行分析。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;smtp--pop3--imap-邮件服务&#34;&gt;SMTP &amp;amp; POP3 &amp;amp; IMAP: 邮件服务
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;center&gt;协议&lt;/center&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;备注&lt;/center&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;SMTP&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;Simple Mail Transfer Protocol，简单邮件传输协议，用于发送邮件&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;POP3&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;Post Office Protocol v3，邮局协议版本3，用于接收邮件&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;IMAP&lt;/td&gt;
+          &lt;td&gt;Internet Message Access Protocol，互联网邮件访问协议，类似POP3，功能更多&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;nslookup解析MX记录：&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;set type=mx//解析mx如果是A就是ipv4/AAAA就是ipv6&lt;/li&gt;
+&lt;li&gt;qq.com //例如&lt;/li&gt;
+&lt;li&gt;解析出域名//mx3.qq.com&lt;/li&gt;
+&lt;li&gt;在根据域名解析出ip地址
+&lt;ul&gt;
+&lt;li&gt;set type=a&lt;/li&gt;
+&lt;li&gt;mx3.qq.com
+&lt;img src=&#34;https://371103.xyz/PicGo/20250214160715200.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;telnet--ssh-远程管理服务-吃饭家伙&#34;&gt;Telnet &amp;amp; SSH: 远程管理服务 //吃饭家伙
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;远程管理协议，可以用来远程管理各种设备和系统。&lt;/li&gt;
+&lt;li&gt;客户端和服务端需要保证网络可达。&lt;/li&gt;
+&lt;li&gt;借助终端工具管理会话，如：MobaXterm、SecureCRT、Xshell、PuTTy等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;协议&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;备注&lt;/center&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Telnet&lt;/td&gt;
+          &lt;td&gt;明文传输、认证简单、多会话、配置简单、安全性差、不建议使用。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;SSH&lt;/td&gt;
+          &lt;td&gt;加密传输、身份识别、多会话、配置复杂、安全性高、建议使用。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;ftp--tftp-文件传输服务&#34;&gt;FTP &amp;amp; TFTP: 文件传输服务
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;提供“上传”和“下载”等文件操作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;center&gt;协议&lt;/center&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;备注&lt;/center&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#ff0000&#34;&gt;FTP&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font color=&#34;#ff0000&#34;&gt;File Transfer Protocol，文件传输协议   &lt;/font&gt;                                                                 &lt;br&gt; 提供&lt;font color=&#34;#0070c0&#34;&gt;可靠&lt;/font&gt;的文件传输服务                                                                                                具有&lt;font color=&#34;#0070c0&#34;&gt;认证、权限&lt;/font&gt;等功能&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#0070c0&#34;&gt;TFTP&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font color=&#34;#ff0000&#34;&gt;Trivial File Transfer Protocol，简单文件传输协议 &lt;/font&gt;                                                        提供&lt;font color=&#34;#0070c0&#34;&gt;不可靠&lt;/font&gt;的文件传输服务                                                                                            常用于网络设备的配置文件和系统文件传输&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;当我们上网访问WEB服务器、FTP服务器、Mail服务器等时，需要先访问DNS服务器。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>网络模型</title>
         <link>https://wzy-yaemiko.top/p/%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B/</link>
         <pubDate>Thu, 06 Feb 2025 17:16:49 +0800</pubDate>
