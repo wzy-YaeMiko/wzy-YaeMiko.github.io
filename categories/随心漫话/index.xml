@@ -7,7 +7,133 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>wzy朔夜观星</copyright>
-        <lastBuildDate>Tue, 28 Jan 2025 17:10:44 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/categories/%E9%9A%8F%E5%BF%83%E6%BC%AB%E8%AF%9D/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 15 Feb 2025 18:36:36 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/categories/%E9%9A%8F%E5%BF%83%E6%BC%AB%E8%AF%9D/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>解决MacOS到处拉屎的问题</title>
+        <link>https://wzy-yaemiko.top/p/%E8%A7%A3%E5%86%B3macos%E5%88%B0%E5%A4%84%E6%8B%89%E5%B1%8E%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Sat, 15 Feb 2025 18:36:36 +0800</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/p/%E8%A7%A3%E5%86%B3macos%E5%88%B0%E5%A4%84%E6%8B%89%E5%B1%8E%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>&lt;img src="https://wzy-yaemiko.top/p/%E8%A7%A3%E5%86%B3macos%E5%88%B0%E5%A4%84%E6%8B%89%E5%B1%8E%E7%9A%84%E9%97%AE%E9%A2%98/pgls.jpg" alt="Featured image of post 解决MacOS到处拉屎的问题" /&gt;&lt;h3 id=&#34;ds_store是什么&#34;&gt;.DS_Store是什么
+&lt;/h3&gt;&lt;p&gt;这些文件是macOS系统自动生成的，用来存储文件夹的自定义属性，比如图标位置或背景图片。在Git仓库中，这些文件通常是不必要的，甚至可能引起问题，尤其是在多人协作时，其他操作系统用户可能会被干扰。&lt;/p&gt;
+&lt;h3 id=&#34;要去除仓库中的ds_store文件并确保它们不再被提交请按照以下步骤操作&#34;&gt;要去除仓库中的&lt;code&gt;.DS_Store&lt;/code&gt;文件，并确保它们不再被提交，请按照以下步骤操作：
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;步骤 1：删除现有的 &lt;code&gt;.DS_Store&lt;/code&gt; 文件&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;手动删除本地文件&lt;/strong&gt;
+在你的项目文件夹中搜索 &lt;code&gt;.DS_Store&lt;/code&gt; 文件（可能需要显示隐藏文件），手动删除它们。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在 macOS 上，可以通过终端命令快速删除当前目录及子目录下的所有 &lt;code&gt;.DS_Store&lt;/code&gt; 文件：&lt;/p&gt;
+&lt;p&gt;bash&lt;/p&gt;
+&lt;p&gt;复制&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -name &amp;#34;.DS_Store&amp;#34; -delete
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;通过 GitHub Desktop 或终端中用git命令提交删除操作&lt;/strong&gt;(我这边用GitHub Desktop举例)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;打开 GitHub Desktop，仓库的更改列表会显示被删除的 &lt;code&gt;.DS_Store&lt;/code&gt; 文件。&lt;/li&gt;
+&lt;li&gt;勾选这些文件，填写提交信息（如 &amp;ldquo;Remove .DS_Store files&amp;rdquo;），点击 &lt;strong&gt;Commit to main&lt;/strong&gt;（或当前分支）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;步骤 2：将 &lt;code&gt;.DS_Store&lt;/code&gt; 添加到 &lt;code&gt;.gitignore&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;编辑 &lt;code&gt;.gitignore&lt;/code&gt; 文件&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在仓库根目录下找到 &lt;code&gt;.gitignore&lt;/code&gt; 文件。如果没有，右键点击仓库空白处，选择 &lt;strong&gt;New File&lt;/strong&gt; 创建。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在 &lt;code&gt;.gitignore&lt;/code&gt; 中添加以下内容：&lt;/p&gt;
+&lt;p&gt;复制&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略 macOS 系统文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.DS_Store
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;提交 &lt;code&gt;.gitignore&lt;/code&gt; 更改&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Desktop 会检测到 &lt;code&gt;.gitignore&lt;/code&gt; 的变更，勾选并提交，填写信息如 &amp;ldquo;Add .DS_Store to gitignore&amp;rdquo;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;步骤 3（可选）：从 Git 历史中清除已有的 &lt;code&gt;.DS_Store&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果 &lt;code&gt;.DS_Store&lt;/code&gt; 已经被提交到历史记录中，需从 Git 跟踪中彻底移除：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;通过终端执行命令&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;bash&lt;/p&gt;
+&lt;p&gt;复制&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 移除所有已跟踪的 .DS_Store 文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git rm --cached -r .DS_Store
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 提交变更
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &amp;#34;Purge .DS_Store from Git history&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;注意：此操作需在命令行完成，GitHub Desktop 无直接界面支持。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;额外建议&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;全局忽略 &lt;code&gt;.DS_Store&lt;/code&gt;（针对所有仓库）&lt;/strong&gt;
+在终端运行以下命令，避免 macOS 在所有仓库生成该文件：&lt;/p&gt;
+&lt;p&gt;bash&lt;/p&gt;
+&lt;p&gt;复制&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;echo &amp;#34;.DS_Store&amp;#34; &amp;gt;&amp;gt; ~/.gitignore_global
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global core.excludesfile ~/.gitignore_global
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;提醒协作者更新配置&lt;/strong&gt;
+如果其他协作者使用 macOS，建议他们执行相同操作。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;通过以上步骤，你的仓库将不再跟踪 &lt;code&gt;.DS_Store&lt;/code&gt; 文件，且未来提交会自动忽略它们。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>我们为什么要学习马克思主义</title>
         <link>https://wzy-yaemiko.top/p/%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89/</link>
         <pubDate>Tue, 28 Jan 2025 17:10:44 +0800</pubDate>
