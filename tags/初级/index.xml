@@ -252,8 +252,7 @@ Windows相关命令：&lt;/li&gt;
 &lt;li&gt;set type=mx//解析mx如果是A就是ipv4/AAAA就是ipv6&lt;/li&gt;
 &lt;li&gt;qq.com //例如&lt;/li&gt;
 &lt;li&gt;解析出域名//mx3.qq.com&lt;/li&gt;
-&lt;li&gt;在根据域名解析出ip地址
-&lt;ul&gt;
+&lt;li&gt;在根据域名解析出ip地址&lt;/li&gt;
 &lt;li&gt;set type=a&lt;/li&gt;
 &lt;li&gt;mx3.qq.com
 &lt;img src=&#34;https://371103.xyz/PicGo/20250214160715200.png&#34;
@@ -266,8 +265,6 @@ Windows相关命令：&lt;/li&gt;
 	
 	
 &gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;telnet--ssh-远程管理服务-吃饭家伙&#34;&gt;Telnet &amp;amp; SSH: 远程管理服务 //吃饭家伙
 &lt;/h2&gt;&lt;ul&gt;
