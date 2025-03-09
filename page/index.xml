@@ -69,6 +69,15 @@
         <guid>https://wzy-yaemiko.top/search/</guid>
         <description></description>
         </item>
+        <item>
+        <title>随心漫话</title>
+        <link>https://wzy-yaemiko.top/daily/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/daily/</guid>
+        <description>&lt;p&gt;欢迎来到我的随心漫话空间！这里记录着我的日常思考和生活点滴。&lt;/p&gt;
+</description>
+        </item>
         
     </channel>
 </rss>
