@@ -985,13 +985,49 @@ async>
         document.head.appendChild(customFont);
     }());
 </script>
-<style>
+<style id="background-style">
   body {
     background: url(https://wzy-yaemiko.top/background/bcsz.png) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }
 </style>
+
+<script>
+  
+  function updateBackgroundImage() {
+    const colorScheme = document.documentElement.dataset.scheme;
+    const styleElement = document.getElementById('background-style');
+    
+    if (colorScheme === 'dark') {
+      
+      styleElement.innerHTML = `
+        body {
+          background: url(https:\/\/wzy-yaemiko.top\/background\/hs.png) no-repeat center top;
+          background-size: cover;
+          background-attachment: fixed;
+        }
+      `;
+    } else {
+      
+      styleElement.innerHTML = `
+        body {
+          background: url(https:\/\/wzy-yaemiko.top\/background\/bcsz.png) no-repeat center top;
+          background-size: cover;
+          background-attachment: fixed;
+        }
+      `;
+    }
+  }
+  
+  
+  updateBackgroundImage();
+  
+  
+  window.addEventListener('onColorSchemeChange', function(e) {
+    updateBackgroundImage();
+  });
+</script>
 
 <script src=https://wzy-yaemiko.top/background/sakura.js></script>
 
