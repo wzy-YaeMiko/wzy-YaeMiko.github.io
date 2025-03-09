@@ -7,7 +7,27 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>wzy朔夜观星</copyright>
-        <lastBuildDate>Sat, 15 Feb 2025 18:36:36 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 09 Mar 2025 22:48:00 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我的第一篇随心漫话</title>
+        <link>https://wzy-yaemiko.top/diary/first-diary/</link>
+        <pubDate>Sun, 09 Mar 2025 22:48:00 +0800</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/diary/first-diary/</guid>
+        <description>&lt;p&gt;感谢Trae赞美Claude-3.7-Sonnet&lt;/p&gt;
+&lt;p&gt;本网站于今天增加“随心漫话”功能，并解决了再切换暗夜模式时无法实现背景图片切换的历史遗留问题！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wzy-yaemiko.top/Users/wangzhaoyang/Downloads/bcsz.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;bcsz&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>解决MacOS到处拉屎的问题</title>
         <link>https://wzy-yaemiko.top/p/%E8%A7%A3%E5%86%B3macos%E5%88%B0%E5%A4%84%E6%8B%89%E5%B1%8E%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Sat, 15 Feb 2025 18:36:36 +0800</pubDate>
@@ -1006,28 +1026,6 @@ IP地址：包含ipv4地址和ipv6地址
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>生活的小确幸</title>
-        <link>https://wzy-yaemiko.top/diary/second-diary/</link>
-        <pubDate>Sat, 15 Jul 2023 18:30:00 +0800</pubDate>
-        
-        <guid>https://wzy-yaemiko.top/diary/second-diary/</guid>
-        <description>&lt;p&gt;今天发现了一家很棒的咖啡店，环境安静，咖啡香浓，非常适合工作和思考。&lt;/p&gt;
-&lt;p&gt;最近在学习新的编程技术，虽然有些困难，但每解决一个问题都会带来成就感。这种不断学习和进步的过程，让我感到生活充满了意义。&lt;/p&gt;
-&lt;p&gt;有时候，生活中的小确幸比宏大的成功更能带给人持久的幸福感。一杯好咖啡，一本好书，一段安静的时光，都是值得珍惜的。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>我的第一篇随心漫话</title>
-        <link>https://wzy-yaemiko.top/diary/first-diary/</link>
-        <pubDate>Thu, 01 Jun 2023 15:04:05 +0800</pubDate>
-        
-        <guid>https://wzy-yaemiko.top/diary/first-diary/</guid>
-        <description>&lt;p&gt;这是我的第一篇随心漫话，在这里我可以分享我的日常想法和感受。&lt;/p&gt;
-&lt;p&gt;今天是个好天气，阳光明媚，我决定开始记录我的日常生活和想法。这个随心漫话板块将成为我抒发情感、分享生活点滴的地方。&lt;/p&gt;
-&lt;p&gt;希望通过这种方式，能够更好地整理自己的思绪，也能与读者产生共鸣。&lt;/p&gt;
 </description>
         </item>
         <item>
