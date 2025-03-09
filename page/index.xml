@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>wzy朔夜观星</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://wzy-yaemiko.top/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://wzy-yaemiko.top/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>随心漫话</title>
+        <link>https://wzy-yaemiko.top/diary/</link>
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/diary/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>归档</title>
         <link>https://wzy-yaemiko.top/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
