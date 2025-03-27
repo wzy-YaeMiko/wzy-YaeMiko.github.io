@@ -7,7 +7,86 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>wzy朔夜观星</copyright>
-        <lastBuildDate>Wed, 26 Mar 2025 21:45:11 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 27 Mar 2025 20:38:44 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>网络层</title>
+        <link>https://wzy-yaemiko.top/p/%E7%BD%91%E7%BB%9C%E5%B1%82/</link>
+        <pubDate>Thu, 27 Mar 2025 20:38:44 +0800</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/p/%E7%BD%91%E7%BB%9C%E5%B1%82/</guid>
+        <description>&lt;img src="https://wzy-yaemiko.top/p/%E7%BD%91%E7%BB%9C%E5%B1%82/%E4%BA%91%E5%A0%87.jpg" alt="Featured image of post 网络层" /&gt;&lt;h1 id=&#34;网络层&#34;&gt;&lt;font color=&#34;#00b0f0&#34;&gt;网络层&lt;/font&gt;
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;建立“&lt;font color=&#34;#ff0000&#34;&gt;点到点&lt;/font&gt;”[&lt;font color=&#34;#ff0000&#34;&gt;End to End&lt;/font&gt;]的连接。&lt;/li&gt;
+&lt;li&gt;传输层负责进程之间的连接，而网络层则负责节点之间的传递。&lt;/li&gt;
+&lt;li&gt;提供了无连接数据传输服务，即在发送数据报文时不需要先建立连接，每一个IP数据报文独立发送。
+&lt;img src=&#34;https://371103.xyz/PicGo/20250327193852561.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ip协议&#34;&gt;IP协议
+&lt;/h2&gt;&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;IP：&lt;/font&gt; &lt;font color=&#34;#ff0000&#34;&gt;Internet Protocol,因特网协议&lt;/font&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TCP/IP协议簇中&lt;font color=&#34;#b2a2c7&#34;&gt;最核心&lt;/font&gt;的协议。&lt;/li&gt;
+&lt;li&gt;为网络层的设备提供&lt;font color=&#34;#00b050&#34;&gt;逻辑地址&lt;/font&gt;，负责寻址和&lt;font color=&#34;#00b0f0&#34;&gt;路由&lt;/font&gt;转发。
+&lt;img src=&#34;https://371103.xyz/PicGo/20250327194431085.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://371103.xyz/PicGo/20250327194519888.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;IP协议版本：&lt;/font&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1980 —— IPv4 RFC 791&lt;/li&gt;
+&lt;li&gt;1990 —— Concerns of IPv4 Address Exhaustion&lt;/li&gt;
+&lt;li&gt;1990~2000 —— Short Term: NAT,CIDR | IPv6 RFCs&lt;/li&gt;
+&lt;li&gt;2000 —— NAT,CIDR,Defer Need for IPv6&lt;/li&gt;
+&lt;li&gt;2010~2015 —— IANA Allocates Final /8 Block&lt;/li&gt;
+&lt;li&gt;2015 ——ARIN Allocates Final IPv4 Block&lt;/li&gt;
+&lt;li&gt;??? —— IPv6 Replaces IPv4
+&lt;font color=&#34;#00b0f0&#34;&gt;图中右边是ipv6左边是ipv4——大道至简&lt;/font&gt;
+&lt;img src=&#34;https://371103.xyz/PicGo/20250327195241438.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;IP地址：&lt;/font&gt; &lt;font color=&#34;#ff0000&#34;&gt;IP Address&lt;/font&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;标志网络中的一个节点，用于寻址。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;发送IP ——&amp;gt; 路由器等(三层设备) ——&amp;gt; 接收IP&lt;/p&gt;
+&lt;p&gt;IPV4 可使用数量 42亿  &lt;font color=&#34;#00b0f0&#34;&gt;2011年2月3日分配完&lt;/font&gt;
+IPV6 可适用数量 3.4* 10^38&lt;/p&gt;
+&lt;p&gt;IPV6具有公网可达性，且现在在去IPV4 的net。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>传输层</title>
         <link>https://wzy-yaemiko.top/p/%E4%BC%A0%E8%BE%93%E5%B1%82/</link>
         <pubDate>Wed, 26 Mar 2025 21:45:11 +0800</pubDate>
