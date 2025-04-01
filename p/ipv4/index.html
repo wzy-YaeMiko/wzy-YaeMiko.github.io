@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="网络层 建立“点到点”[End to End]的连接。 传输层负责进程之间的连接，而网络层则负责节点之间的传递。 提供了无连接数据传输服务，即在发送数据报文时不需要先建立连接，每一个IP数据报文独立发送。 IP协议 IP： Internet Protocol,因特网协议\n">
-<title>网络层</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="IPv4 IPv4地址结构： 一个IPv4地址有32bit。 IPv4地址通常采用“点分十进制”表示。 IPv4地址范围：0.0.0.0～255.255.255.255。 点分十进制表示法：\n">
+<title>IPv4</title>
 
-<link rel='canonical' href='https://wzy-yaemiko.top/p/%E7%BD%91%E7%BB%9C%E5%B1%82/'>
+<link rel='canonical' href='https://wzy-yaemiko.top/p/ipv4/'>
 
-<link rel="stylesheet" href="/scss/style.min.bcb1a2db70a603dc98c87c4bc0071d00451923533a45e2c34ae857a459df74bf.css"><meta property='og:title' content="网络层">
-<meta property='og:description' content="网络层 建立“点到点”[End to End]的连接。 传输层负责进程之间的连接，而网络层则负责节点之间的传递。 提供了无连接数据传输服务，即在发送数据报文时不需要先建立连接，每一个IP数据报文独立发送。 IP协议 IP： Internet Protocol,因特网协议\n">
-<meta property='og:url' content='https://wzy-yaemiko.top/p/%E7%BD%91%E7%BB%9C%E5%B1%82/'>
+<link rel="stylesheet" href="/scss/style.min.bcb1a2db70a603dc98c87c4bc0071d00451923533a45e2c34ae857a459df74bf.css"><meta property='og:title' content="IPv4">
+<meta property='og:description' content="IPv4 IPv4地址结构： 一个IPv4地址有32bit。 IPv4地址通常采用“点分十进制”表示。 IPv4地址范围：0.0.0.0～255.255.255.255。 点分十进制表示法：\n">
+<meta property='og:url' content='https://wzy-yaemiko.top/p/ipv4/'>
 <meta property='og:site_name' content='wzy朔夜观星'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hica' /><meta property='article:tag' content='初级' /><meta property='article:published_time' content='2025-03-27T20:38:44&#43;08:00'/><meta property='article:modified_time' content='2025-03-27T20:38:44&#43;08:00'/><meta property='og:image' content='https://wzy-yaemiko.top/p/%E7%BD%91%E7%BB%9C%E5%B1%82/%E4%BA%91%E5%A0%87.jpg' />
-<meta name="twitter:title" content="网络层">
-<meta name="twitter:description" content="网络层 建立“点到点”[End to End]的连接。 传输层负责进程之间的连接，而网络层则负责节点之间的传递。 提供了无连接数据传输服务，即在发送数据报文时不需要先建立连接，每一个IP数据报文独立发送。 IP协议 IP： Internet Protocol,因特网协议\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://wzy-yaemiko.top/p/%E7%BD%91%E7%BB%9C%E5%B1%82/%E4%BA%91%E5%A0%87.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hica' /><meta property='article:tag' content='初级' /><meta property='article:published_time' content='2025-04-02T00:05:42&#43;08:00'/><meta property='article:modified_time' content='2025-04-02T00:05:42&#43;08:00'/><meta property='og:image' content='https://wzy-yaemiko.top/p/ipv4/%E8%96%87%E8%96%87%E5%AE%89.jpg' />
+<meta name="twitter:title" content="IPv4">
+<meta name="twitter:description" content="IPv4 IPv4地址结构： 一个IPv4地址有32bit。 IPv4地址通常采用“点分十进制”表示。 IPv4地址范围：0.0.0.0～255.255.255.255。 点分十进制表示法：\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://wzy-yaemiko.top/p/ipv4/%E8%96%87%E8%96%87%E5%AE%89.jpg' />
     </head>
     <body class="
     article-page
@@ -269,19 +269,50 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#ipv4地址结构"><font color="#00b0f0"> IPv4地址结构：</font></a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/%E7%BD%91%E7%BB%9C%E5%B1%82/">
-                <img src="/p/%E7%BD%91%E7%BB%9C%E5%B1%82/%E4%BA%91%E5%A0%87_hu_1dbe7fdee0a2af68.jpg"
-                        srcset="/p/%E7%BD%91%E7%BB%9C%E5%B1%82/%E4%BA%91%E5%A0%87_hu_1dbe7fdee0a2af68.jpg 800w, /p/%E7%BD%91%E7%BB%9C%E5%B1%82/%E4%BA%91%E5%A0%87_hu_75d5617dd80259ca.jpg 1600w"
+            <a href="/p/ipv4/">
+                <img src="/p/ipv4/%E8%96%87%E8%96%87%E5%AE%89_hu_abe7273b050d5977.jpg"
+                        srcset="/p/ipv4/%E8%96%87%E8%96%87%E5%AE%89_hu_abe7273b050d5977.jpg 800w, /p/ipv4/%E8%96%87%E8%96%87%E5%AE%89_hu_7cfc65faa00ed0c2.jpg 1600w"
                         width="800" 
-                        height="512" 
+                        height="517" 
                         loading="lazy"
-                        alt="Featured image of post 网络层" />
+                        alt="Featured image of post IPv4" />
                 
             </a>
         </div>
@@ -299,7 +330,7 @@
     
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/%E7%BD%91%E7%BB%9C%E5%B1%82/">网络层</a>
+            <a href="/p/ipv4/">IPv4</a>
         </h2>
     
         
@@ -321,7 +352,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-03-27</time>
+                <time class="article-time--published">2025-04-02</time>
             </div>
         
         
@@ -335,7 +366,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -344,7 +375,7 @@
         <div>
             <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-file-word"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" /><path d="M9 12l1.333 5l1.667 -4l1.667 4l1.333 -5" /></svg>
             <time class="article-words">
-                351字
+                1250字
             </time>
         </div>
     </footer>
@@ -356,12 +387,112 @@
     <section class="article-content">
     
     
-    <h1 id="网络层"><font color="#00b0f0">网络层</font>
-</h1><ul>
-<li>建立“<font color="#ff0000">点到点</font>”[<font color="#ff0000">End to End</font>]的连接。</li>
-<li>传输层负责进程之间的连接，而网络层则负责节点之间的传递。</li>
-<li>提供了无连接数据传输服务，即在发送数据报文时不需要先建立连接，每一个IP数据报文独立发送。
-<img src="https://371103.xyz/PicGo/20250327193852561.png"
+    <h1 id="ipv4">IPv4
+</h1><h2 id="ipv4地址结构"><font color="#00b0f0"> IPv4地址结构：</font>
+</h2><ul>
+<li>一个IPv4地址有32bit。</li>
+<li>IPv4地址通常采用“点分十进制”表示。</li>
+<li>IPv4地址范围：0.0.0.0～255.255.255.255。</li>
+</ul>
+<p><span style="background:#fff88f">点分十进制表示法：</span></p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th><font color="#00b0f0">十进制</font></th>
+          <th><center>192.</center></th>
+          <th><center>168.</center></th>
+          <th><center>10.</center></th>
+          <th><center>1</center></th>
+          <th>4 Byte</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><font color="#00b0f0">二进制</font></td>
+          <td>11000000</td>
+          <td>10101000</td>
+          <td>00001010</td>
+          <td>00000001</td>
+          <td>32 bit(32位)</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table></div>
+<p><span style="background:#fff88f">十进制与二进制的转换</span></p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th><font color="#00b0f0">幂</font></th>
+          <th>2^7</th>
+          <th>2^6</th>
+          <th>2^5</th>
+          <th>2^4</th>
+          <th>2^3</th>
+          <th>2^2</th>
+          <th>2^1</th>
+          <th>2^0</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><font color="#00b0f0">位</font></td>
+          <td>128</td>
+          <td>64</td>
+          <td>32</td>
+          <td>16</td>
+          <td>8</td>
+          <td>4</td>
+          <td>2</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td><font color="#ff0000">= 128 + 64 =192</font></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table></div>
+<center><span style="background:#fff88f"><font color="#000000">2^32 = 4294967296</font></span></center>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>IPv4二进制</th>
+          <th>11000000</th>
+          <th>10101000</th>
+          <th>00000001</th>
+          <th>00000001</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>IPv4十进制</td>
+          <td><center>192</center></td>
+          <td><center>168</center></td>
+          <td><center>1</center></td>
+          <td><center>1</center></td>
+      </tr>
+      <tr>
+          <td>点分十进制</td>
+          <td><center>192.</center></td>
+          <td><center>168.</center></td>
+          <td><center>1.</center></td>
+          <td><center>1</center></td>
+      </tr>
+      <tr>
+          <td><img src="https://371103.xyz/PicGo/20250329202231046.png"
 	
 	
 	
@@ -370,14 +501,213 @@
 		alt="image.png"
 	
 	
-></li>
-</ul>
-<h2 id="ip协议">IP协议
-</h2><p><font color="#00b0f0">IP：</font> <font color="#ff0000">Internet Protocol,因特网协议</font></p>
+></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><img src="https://371103.xyz/PicGo/20250329202314962.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table></div>
+<p><font color="#00b0f0">IPv4地址分类[有类] ：</font>
+<img src="https://371103.xyz/PicGo/20250329202512802.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><font color="#00b0f0">IPv4特殊地址：</font></p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>特殊IPv4地址</th>
+          <th><center>地址范围</center></th>
+          <th><center>作业</center></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><font color="#ff0000">任意地址</font></td>
+          <td><center>0.0.0.0</center></td>
+          <td><center><font color="#ff0000">所有</font>网络或<font color="#ff0000">不确定</font>的网络</center></td>
+      </tr>
+      <tr>
+          <td><font color="#00b050">有限广播地址</font></td>
+          <td>255.255.255.255</td>
+          <td><center>发往网段内<font color="#ff0000">所有主机</font></center></td>
+      </tr>
+      <tr>
+          <td><font color="#b2a2c7">环回地址</font></td>
+          <td><center>127.0.0.0/8</center></td>
+          <td><center>用于本地测试和通信，不依赖外部网络</center></td>
+      </tr>
+      <tr>
+          <td><font color="#00b0f0">链路本地地址</font></td>
+          <td><center>169.254.0.0/16</center></td>
+          <td>无法获取有效地址时随机分配的<font color="#ff0000">临时通信地址</font></td>
+      </tr>
+  </tbody>
+</table></div>
+<p><font color="#00b0f0">公网&amp;私网地址 ：</font></p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>地址类型</th>
+          <th><center>备注</center></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><font color="#00b050">公网地址</font></td>
+          <td><center>用于Internet上网，付费申请，全球唯一</center></td>
+      </tr>
+      <tr>
+          <td><font color="#b2a2c7">私网地址</font></td>
+          <td><center>用于家庭、企业内部网络，免费使用，可以重复</center></td>
+      </tr>
+      <tr>
+          <td><font color="#ff0000">地址转换</font></td>
+          <td>私网地址访问Internet时必须转换为公网地址，该技术为<font color="#00b0f0">NAT</font></td>
+      </tr>
+  </tbody>
+</table></div>
+<p><span style="background:#fff88f">公网地址的管理和分配：</span></p>
+<p><span style="background:#d3f8b6">私网地址的分配</span>：RFC 1918</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th><center>私网地址空间</center></th>
+          <th><center>范围</center></th>
+          <th><center>表达方式</center></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><center>A类</center></td>
+          <td><center>10.0.0.0~10.255.255.255</center></td>
+          <td><center>10.0.0.0/8</center></td>
+      </tr>
+      <tr>
+          <td><center>B类</center></td>
+          <td><center>172.16.0.0~172.31.255.255</center></td>
+          <td><center>172.16.0.0/12</center></td>
+      </tr>
+      <tr>
+          <td><center>C类</center></td>
+          <td>192.168.0.0~192.168.255.255</td>
+          <td><center>192.168.0.0/16</center></td>
+      </tr>
+      <tr>
+          <td>运营商级NAT保留</td>
+          <td>100.64.0.0~100.127.255.255</td>
+          <td><center>100.64.0.0/10</center></td>
+      </tr>
+      <tr>
+          <td><img src="https://371103.xyz/PicGo/20250329210936375.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table></div>
+<p><font color="#00b0f0">网络地址、主机地址、广播地址：</font></p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>地址类型</th>
+          <th><center>规则</center></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>网络地址</td>
+          <td>主机位对应地址 <font color="#ff0000">全为0</font>，标识一个网段[<font color="#ff0000">头</font>]</td>
+      </tr>
+      <tr>
+          <td>主机地址</td>
+          <td>主机位对应地址 <font color="#00b0f0">不全为0也不会全为1</font>，标识一个网段内的一个节点[<font color="#ff0000">中间</font>]</td>
+      </tr>
+      <tr>
+          <td>广播地址</td>
+          <td>主机位对应地址 <font color="#ff0000">全为1</font>，标识一个网段内的所有节点[<font color="#ff0000">尾</font>]</td>
+      </tr>
+  </tbody>
+</table></div>
 <ul>
-<li>TCP/IP协议簇中<font color="#b2a2c7">最核心</font>的协议。</li>
-<li>为网络层的设备提供<font color="#00b050">逻辑地址</font>，负责寻址和<font color="#00b0f0">路由</font>转发。
-<img src="https://371103.xyz/PicGo/20250327194431085.png"
+<li>通常把一个网络号所定义的网络范围称为一个网段。</li>
+<li>网络地址：用于标识一个网络。
+<ul>
+<li>例如：192.168.10.0/24，其中“0”对应 —— 00000000</li>
+</ul>
+</li>
+<li>广播地址：用于向该网络中所有主机发送数据的特殊地址。
+<ul>
+<li>例如：192.168.10.255/24，其中“255”对应 —— 11111111</li>
+</ul>
+</li>
+<li>主机地址：可分配给网络中的节点的地址。
+<ul>
+<li>例如：192.168.10.1/24，其中“1”对应 —— 00000001</li>
+</ul>
+</li>
+</ul>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>注意</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>网络地址和广播地址不能直接被节点使用。</td>
+      </tr>
+      <tr>
+          <td>一个网段可用地址数量为：2^n - 2 (n : 主机位位数)</td>
+      </tr>
+  </tbody>
+</table></div>
+<p><font color="#00b0f0">地址计算案例：</font>
+<img src="https://371103.xyz/PicGo/20250329224827857.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><font color="#00b0f0">为什么需要子网划分：</font>
+默认A、B、C类每个网段内可用主机数：
+<img src="https://371103.xyz/PicGo/20250329225012998.png"
 	
 	
 	
@@ -387,7 +717,48 @@
 	
 	
 >
-<img src="https://371103.xyz/PicGo/20250327194519888.png"
+<img src="https://371103.xyz/PicGo/20250329225047601.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><font color="#00b0f0">子网划分[无类]：</font></p>
+<ul>
+<li>改变子网掩码，把一个大的网络划分为若干个小的网络</li>
+<li>提高IP地址的使用率
+<ul>
+<li>子网的个数：2^x (x代表子网的位数)</li>
+<li>每个子网内有效主机个数：2^y-2
+<ul>
+<li>其中y代表主机位数</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>子网划分前的两级IP地址
+<ul>
+<li><span style="background:#ff4d4f">网络位 </span><span style="background:#d3f8b6">主机位</span></li>
+</ul>
+</li>
+<li>子网划分后的三级IP地址
+<ul>
+<li><span style="background:#ff4d4f"> 网络位子网位</span><span style="background:#d3f8b6">主机位 </span>
+<img src="https://371103.xyz/PicGo/20250329225841228.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+<img src="https://371103.xyz/PicGo/20250329225947253.png"
 	
 	
 	
@@ -398,17 +769,49 @@
 	
 ></li>
 </ul>
-<p><font color="#00b0f0">IP协议版本：</font></p>
+</li>
+</ul>
+<p><font color="#00b0f0">子网划分计算过程：</font>
+<img src="https://371103.xyz/PicGo/20250329230044194.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><font color="#00b0f0">子网划分计算案例：</font>
+<img src="https://371103.xyz/PicGo/20250329230132940.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><font color="#00b0f0">子网划分计算技巧：</font></p>
 <ul>
-<li>1980 —— IPv4 RFC 791</li>
-<li>1990 —— Concerns of IPv4 Address Exhaustion</li>
-<li>1990~2000 —— Short Term: NAT,CIDR | IPv6 RFCs</li>
-<li>2000 —— NAT,CIDR,Defer Need for IPv6</li>
-<li>2010~2015 —— IANA Allocates Final /8 Block</li>
-<li>2015 ——ARIN Allocates Final IPv4 Block</li>
-<li>??? —— IPv6 Replaces IPv4
-<font color="#00b0f0">图中右边是ipv6左边是ipv4——大道至简</font>
-<img src="https://371103.xyz/PicGo/20250327195241438.png"
+<li>想求快那就求块 <font color="#ff0000">=</font> <font color="#b2a2c7">2^主机位数 </font><font color="#ff0000">= </font><font color="#00b050">256-掩码</font></li>
+</ul>
+<p><font color="#00b0f0">IPv4地址规划：</font>
+IP地址规划的好坏，将会直接给网络带来影响：</p>
+<ul>
+<li>网络路由协议算法的效率</li>
+<li>网络的性能</li>
+<li>网络的扩展</li>
+<li>网络的管理
+IP地址规划主要遵从四个原则：</li>
+<li>唯一性：一个IP网络中不能有两个主机使用相同的IP地址</li>
+<li>可扩展性：在IP地址分配时，要有一定的余量，以满足网络扩展时的需要</li>
+<li>连续性：分配的连续的IP地址要有利于管理和地址汇总，连续的IP地址易于汇总，减小路由表，提高路由效率</li>
+<li>实意性：分配IP地址时尽量使所分配的IP地址具有一定实际意义
+<ul>
+<li>例如：使人一看到该IP地址就可以知道此IP地址分配给了那个部门或那个地区
+<img src="https://371103.xyz/PicGo/20250330132055126.png"
 	
 	
 	
@@ -419,14 +822,8 @@
 	
 ></li>
 </ul>
-<p><font color="#00b0f0">IP地址：</font> <font color="#ff0000">IP Address</font></p>
-<ul>
-<li>标志网络中的一个节点，用于寻址。</li>
+</li>
 </ul>
-<p>发送IP ——&gt; 路由器等(三层设备) ——&gt; 接收IP</p>
-<p>IPV4 可使用数量 42亿  <font color="#00b0f0">2011年2月3日分配完</font>
-IPV6 可适用数量 3.4* 10^38</p>
-<p>IPV6具有公网可达性，且现在在去IPV4 的net。</p>
 
 </section>
 
@@ -495,23 +892,23 @@ IPV6 可适用数量 3.4* 10^38</p>
             
                 
 <article class="has-image">
-    <a href="/p/ipv4/">
+    <a href="/p/%E7%BD%91%E7%BB%9C%E5%B1%82/">
         
         
             <div class="article-image">
-                <img src="/p/ipv4/%E8%96%87%E8%96%87%E5%AE%89.15cdf944687cc424b0d502594a2ead0a_hu_ed9e8a9c01fe295d.jpg" 
+                <img src="/p/%E7%BD%91%E7%BB%9C%E5%B1%82/%E4%BA%91%E5%A0%87.21922f96c736e37209df65cc866cb6ea_hu_951420f3ecd297e0.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post IPv4"
+                        alt="Featured image of post 网络层"
                         
-                        data-hash="md5-Fc35RGh8xCSw1QJZSi6tCg==">
+                        data-hash="md5-IZIvlsc243IJ32XMhmy26g==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">IPv4</h2>
+            <h2 class="article-title">网络层</h2>
         </div>
     </a>
 </article>

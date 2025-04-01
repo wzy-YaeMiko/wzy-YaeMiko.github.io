@@ -7,7 +7,452 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>wzy朔夜观星</copyright>
-        <lastBuildDate>Thu, 27 Mar 2025 20:38:44 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 02 Apr 2025 00:05:42 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>IPv4</title>
+        <link>https://wzy-yaemiko.top/p/ipv4/</link>
+        <pubDate>Wed, 02 Apr 2025 00:05:42 +0800</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/p/ipv4/</guid>
+        <description>&lt;img src="https://wzy-yaemiko.top/p/ipv4/%E8%96%87%E8%96%87%E5%AE%89.jpg" alt="Featured image of post IPv4" /&gt;&lt;h1 id=&#34;ipv4&#34;&gt;IPv4
+&lt;/h1&gt;&lt;h2 id=&#34;ipv4地址结构&#34;&gt;&lt;font color=&#34;#00b0f0&#34;&gt; IPv4地址结构：&lt;/font&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;一个IPv4地址有32bit。&lt;/li&gt;
+&lt;li&gt;IPv4地址通常采用“点分十进制”表示。&lt;/li&gt;
+&lt;li&gt;IPv4地址范围：0.0.0.0～255.255.255.255。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&#34;background:#fff88f&#34;&gt;点分十进制表示法：&lt;/span&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;font color=&#34;#00b0f0&#34;&gt;十进制&lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;192.&lt;/center&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;168.&lt;/center&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;10.&lt;/center&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;1&lt;/center&gt;&lt;/th&gt;
+          &lt;th&gt;4 Byte&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#00b0f0&#34;&gt;二进制&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;11000000&lt;/td&gt;
+          &lt;td&gt;10101000&lt;/td&gt;
+          &lt;td&gt;00001010&lt;/td&gt;
+          &lt;td&gt;00000001&lt;/td&gt;
+          &lt;td&gt;32 bit(32位)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span style=&#34;background:#fff88f&#34;&gt;十进制与二进制的转换&lt;/span&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;font color=&#34;#00b0f0&#34;&gt;幂&lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;2^7&lt;/th&gt;
+          &lt;th&gt;2^6&lt;/th&gt;
+          &lt;th&gt;2^5&lt;/th&gt;
+          &lt;th&gt;2^4&lt;/th&gt;
+          &lt;th&gt;2^3&lt;/th&gt;
+          &lt;th&gt;2^2&lt;/th&gt;
+          &lt;th&gt;2^1&lt;/th&gt;
+          &lt;th&gt;2^0&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#00b0f0&#34;&gt;位&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;128&lt;/td&gt;
+          &lt;td&gt;64&lt;/td&gt;
+          &lt;td&gt;32&lt;/td&gt;
+          &lt;td&gt;16&lt;/td&gt;
+          &lt;td&gt;8&lt;/td&gt;
+          &lt;td&gt;4&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#ff0000&#34;&gt;= 128 + 64 =192&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;center&gt;&lt;span style=&#34;background:#fff88f&#34;&gt;&lt;font color=&#34;#000000&#34;&gt;2^32 = 4294967296&lt;/font&gt;&lt;/span&gt;&lt;/center&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;IPv4二进制&lt;/th&gt;
+          &lt;th&gt;11000000&lt;/th&gt;
+          &lt;th&gt;10101000&lt;/th&gt;
+          &lt;th&gt;00000001&lt;/th&gt;
+          &lt;th&gt;00000001&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;IPv4十进制&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;192&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;168&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;1&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;1&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;点分十进制&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;192.&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;168.&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;1.&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;1&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://371103.xyz/PicGo/20250329202231046.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://371103.xyz/PicGo/20250329202314962.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;IPv4地址分类[有类] ：&lt;/font&gt;
+&lt;img src=&#34;https://371103.xyz/PicGo/20250329202512802.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;IPv4特殊地址：&lt;/font&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;特殊IPv4地址&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;地址范围&lt;/center&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;作业&lt;/center&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#ff0000&#34;&gt;任意地址&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;0.0.0.0&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;&lt;font color=&#34;#ff0000&#34;&gt;所有&lt;/font&gt;网络或&lt;font color=&#34;#ff0000&#34;&gt;不确定&lt;/font&gt;的网络&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#00b050&#34;&gt;有限广播地址&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;255.255.255.255&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;发往网段内&lt;font color=&#34;#ff0000&#34;&gt;所有主机&lt;/font&gt;&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#b2a2c7&#34;&gt;环回地址&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;127.0.0.0/8&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;用于本地测试和通信，不依赖外部网络&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#00b0f0&#34;&gt;链路本地地址&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;169.254.0.0/16&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;无法获取有效地址时随机分配的&lt;font color=&#34;#ff0000&#34;&gt;临时通信地址&lt;/font&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;公网&amp;amp;私网地址 ：&lt;/font&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;地址类型&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;备注&lt;/center&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#00b050&#34;&gt;公网地址&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;用于Internet上网，付费申请，全球唯一&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#b2a2c7&#34;&gt;私网地址&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;用于家庭、企业内部网络，免费使用，可以重复&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font color=&#34;#ff0000&#34;&gt;地址转换&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;私网地址访问Internet时必须转换为公网地址，该技术为&lt;font color=&#34;#00b0f0&#34;&gt;NAT&lt;/font&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span style=&#34;background:#fff88f&#34;&gt;公网地址的管理和分配：&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;background:#d3f8b6&#34;&gt;私网地址的分配&lt;/span&gt;：RFC 1918&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;center&gt;私网地址空间&lt;/center&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;范围&lt;/center&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;表达方式&lt;/center&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;center&gt;A类&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;10.0.0.0~10.255.255.255&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;10.0.0.0/8&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;center&gt;B类&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;172.16.0.0~172.31.255.255&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;172.16.0.0/12&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;center&gt;C类&lt;/center&gt;&lt;/td&gt;
+          &lt;td&gt;192.168.0.0~192.168.255.255&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;192.168.0.0/16&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;运营商级NAT保留&lt;/td&gt;
+          &lt;td&gt;100.64.0.0~100.127.255.255&lt;/td&gt;
+          &lt;td&gt;&lt;center&gt;100.64.0.0/10&lt;/center&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://371103.xyz/PicGo/20250329210936375.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;网络地址、主机地址、广播地址：&lt;/font&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;地址类型&lt;/th&gt;
+          &lt;th&gt;&lt;center&gt;规则&lt;/center&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;网络地址&lt;/td&gt;
+          &lt;td&gt;主机位对应地址 &lt;font color=&#34;#ff0000&#34;&gt;全为0&lt;/font&gt;，标识一个网段[&lt;font color=&#34;#ff0000&#34;&gt;头&lt;/font&gt;]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;主机地址&lt;/td&gt;
+          &lt;td&gt;主机位对应地址 &lt;font color=&#34;#00b0f0&#34;&gt;不全为0也不会全为1&lt;/font&gt;，标识一个网段内的一个节点[&lt;font color=&#34;#ff0000&#34;&gt;中间&lt;/font&gt;]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;广播地址&lt;/td&gt;
+          &lt;td&gt;主机位对应地址 &lt;font color=&#34;#ff0000&#34;&gt;全为1&lt;/font&gt;，标识一个网段内的所有节点[&lt;font color=&#34;#ff0000&#34;&gt;尾&lt;/font&gt;]&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;通常把一个网络号所定义的网络范围称为一个网段。&lt;/li&gt;
+&lt;li&gt;网络地址：用于标识一个网络。
+&lt;ul&gt;
+&lt;li&gt;例如：192.168.10.0/24，其中“0”对应 —— 00000000&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;广播地址：用于向该网络中所有主机发送数据的特殊地址。
+&lt;ul&gt;
+&lt;li&gt;例如：192.168.10.255/24，其中“255”对应 —— 11111111&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;主机地址：可分配给网络中的节点的地址。
+&lt;ul&gt;
+&lt;li&gt;例如：192.168.10.1/24，其中“1”对应 —— 00000001&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;注意&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;网络地址和广播地址不能直接被节点使用。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;一个网段可用地址数量为：2^n - 2 (n : 主机位位数)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;地址计算案例：&lt;/font&gt;
+&lt;img src=&#34;https://371103.xyz/PicGo/20250329224827857.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;为什么需要子网划分：&lt;/font&gt;
+默认A、B、C类每个网段内可用主机数：
+&lt;img src=&#34;https://371103.xyz/PicGo/20250329225012998.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://371103.xyz/PicGo/20250329225047601.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;子网划分[无类]：&lt;/font&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;改变子网掩码，把一个大的网络划分为若干个小的网络&lt;/li&gt;
+&lt;li&gt;提高IP地址的使用率
+&lt;ul&gt;
+&lt;li&gt;子网的个数：2^x (x代表子网的位数)&lt;/li&gt;
+&lt;li&gt;每个子网内有效主机个数：2^y-2
+&lt;ul&gt;
+&lt;li&gt;其中y代表主机位数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;子网划分前的两级IP地址
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;background:#ff4d4f&#34;&gt;网络位 &lt;/span&gt;&lt;span style=&#34;background:#d3f8b6&#34;&gt;主机位&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;子网划分后的三级IP地址
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;background:#ff4d4f&#34;&gt; 网络位子网位&lt;/span&gt;&lt;span style=&#34;background:#d3f8b6&#34;&gt;主机位 &lt;/span&gt;
+&lt;img src=&#34;https://371103.xyz/PicGo/20250329225841228.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://371103.xyz/PicGo/20250329225947253.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;子网划分计算过程：&lt;/font&gt;
+&lt;img src=&#34;https://371103.xyz/PicGo/20250329230044194.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;子网划分计算案例：&lt;/font&gt;
+&lt;img src=&#34;https://371103.xyz/PicGo/20250329230132940.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;子网划分计算技巧：&lt;/font&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;想求快那就求块 &lt;font color=&#34;#ff0000&#34;&gt;=&lt;/font&gt; &lt;font color=&#34;#b2a2c7&#34;&gt;2^主机位数 &lt;/font&gt;&lt;font color=&#34;#ff0000&#34;&gt;= &lt;/font&gt;&lt;font color=&#34;#00b050&#34;&gt;256-掩码&lt;/font&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;font color=&#34;#00b0f0&#34;&gt;IPv4地址规划：&lt;/font&gt;
+IP地址规划的好坏，将会直接给网络带来影响：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;网络路由协议算法的效率&lt;/li&gt;
+&lt;li&gt;网络的性能&lt;/li&gt;
+&lt;li&gt;网络的扩展&lt;/li&gt;
+&lt;li&gt;网络的管理
+IP地址规划主要遵从四个原则：&lt;/li&gt;
+&lt;li&gt;唯一性：一个IP网络中不能有两个主机使用相同的IP地址&lt;/li&gt;
+&lt;li&gt;可扩展性：在IP地址分配时，要有一定的余量，以满足网络扩展时的需要&lt;/li&gt;
+&lt;li&gt;连续性：分配的连续的IP地址要有利于管理和地址汇总，连续的IP地址易于汇总，减小路由表，提高路由效率&lt;/li&gt;
+&lt;li&gt;实意性：分配IP地址时尽量使所分配的IP地址具有一定实际意义
+&lt;ul&gt;
+&lt;li&gt;例如：使人一看到该IP地址就可以知道此IP地址分配给了那个部门或那个地区
+&lt;img src=&#34;https://371103.xyz/PicGo/20250330132055126.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>网络层</title>
         <link>https://wzy-yaemiko.top/p/%E7%BD%91%E7%BB%9C%E5%B1%82/</link>
         <pubDate>Thu, 27 Mar 2025 20:38:44 +0800</pubDate>
