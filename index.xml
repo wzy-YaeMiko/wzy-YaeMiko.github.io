@@ -7,7 +7,287 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>wzy朔夜观星</copyright>
-        <lastBuildDate>Wed, 02 Apr 2025 00:09:58 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 05 Apr 2025 18:23:27 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>基础入门web应用</title>
+        <link>https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8web%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Sat, 05 Apr 2025 18:23:27 +0800</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8web%E5%BA%94%E7%94%A8/</guid>
+        <description>&lt;img src="https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8web%E5%BA%94%E7%94%A8/zly.jpg" alt="Featured image of post 基础入门web应用" /&gt;&lt;p&gt;&lt;img src=&#34;https://371103.xyz/PicGo/20250405181611074.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Web应用&amp;amp;架构搭建&amp;amp;站库分离&amp;amp;路由访问&amp;amp;配置受限&amp;amp;DNS解析&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;span style=&#34;background:#fff88f&#34;&gt;常规Web应用搭建步骤：&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;购买云服务器，购买域名&lt;/li&gt;
+&lt;li&gt;云服务器去搭建中间件&lt;/li&gt;
+&lt;li&gt;下载并上传Web程序源码&lt;/li&gt;
+&lt;li&gt;添加网站并绑定域名目录&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;www.xiaodi8.com&#34; &gt;www.xiaodi8.com&lt;/a&gt; zblog asp程序&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;xiaodi.xiaodi8.com wordpress php程序&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;bbs.xiaodi8.com 论坛 dz程序&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;oa.xiaodi8.com OA通达OA&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;域名&amp;amp;配置-主站&amp;amp;分站&amp;amp;端口站&amp;amp;子站&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;子域名模式&lt;/li&gt;
+&lt;li&gt;端口模式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;源码&amp;amp;配置-路由访问&amp;amp;文件结构&amp;amp;语言类型&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;www.xiaodi8.com&#34; &gt;www.xiaodi8.com&lt;/a&gt; zblog asp程序&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;www.xiaodi8.com:8080&#34; &gt;www.xiaodi8.com:8080&lt;/a&gt; wordpress php程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解析&amp;amp;配置-网站目录&amp;amp;绝对相对路径&amp;amp;权限&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;目录模式&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://wwwxiaosedi123.fun/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://wwwxiaosedi123.fun/&lt;/a&gt; zblog asp程序&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://wwwxiaosedi123.fun/bbs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://wwwxiaosedi123.fun/bbs&lt;/a&gt; 论坛 dz程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库&amp;amp;配置-数据类型&amp;amp;数据存储&amp;amp;授权登录&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Web程序源码：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开源 商业 自写&lt;/li&gt;
+&lt;li&gt;开源-源码可见&lt;/li&gt;
+&lt;li&gt;自写-源码不可见&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;加密&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;语言特性决定&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;路由访问&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;常规：URL和文件目录对应上&lt;/li&gt;
+&lt;li&gt;路由访问：mvc源码 java python&lt;/li&gt;
+&lt;li&gt;URL和文件目录对应不上 要根据配置路由决定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Web架构&amp;amp;前后端分离站&amp;amp;Docker容器站&amp;amp;集成软件站&amp;amp;建站分配&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Web架构-常规化&amp;amp;站库分离&amp;amp;前后端分离
+Web架构-集成软件&amp;amp;Docker容器&amp;amp;分配站&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;常规化
+&lt;ul&gt;
+&lt;li&gt;原理：源码数据都在同服务器&lt;/li&gt;
+&lt;li&gt;影响：无，常规安全测试手法&lt;/li&gt;
+&lt;li&gt;自己搭的iis：
+&lt;ul&gt;
+&lt;li&gt;Iis apppool\defaultapppool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;站库分离
+&lt;ul&gt;
+&lt;li&gt;原理：源码数据库不在同服务器&lt;/li&gt;
+&lt;li&gt;存储：其他服务器上数据库&amp;amp;云数据库产品&lt;/li&gt;
+&lt;li&gt;影响：数据被单独存放，能连接才可影响数据&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;前后端分离
+&lt;ul&gt;
+&lt;li&gt;原理：前端JS框架，API传输数据&lt;/li&gt;
+&lt;li&gt;影响：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;前端页面大部分不存在漏洞&lt;/li&gt;
+&lt;li&gt;后端管理大部分不在同域名&lt;/li&gt;
+&lt;li&gt;获取权限有可能不影响后端&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;宝塔+Phpstudy
+&lt;ul&gt;
+&lt;li&gt;原理：打包类集成化环境，权限配置或受控制&lt;/li&gt;
+&lt;li&gt;影响：攻击者权限对比区别&lt;/li&gt;
+&lt;li&gt;拿到权限后
+&lt;ul&gt;
+&lt;li&gt;宝塔：
+&lt;ul&gt;
+&lt;li&gt;文件管理 锁定目录&lt;/li&gt;
+&lt;li&gt;命令执行 无法执行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;phpstudy
+&lt;ul&gt;
+&lt;li&gt;文件管理 锁定目录&lt;/li&gt;
+&lt;li&gt;命令执行 无法执行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;whomi获取用户权限 - administrator
+&lt;ul&gt;
+&lt;li&gt;Izsjxymy4bzovoz\administrator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Docker 容器
+&lt;ul&gt;
+&lt;li&gt;原理：虚拟化技术独立磁盘空间，非真实物理环境&lt;/li&gt;
+&lt;li&gt;影响：攻击者虚拟空间磁盘&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;建站分配站
+&lt;ul&gt;
+&lt;li&gt;1.托管&lt;/li&gt;
+&lt;li&gt;2.申请&lt;/li&gt;
+&lt;li&gt;原理：利用别人域名模版建立&lt;/li&gt;
+&lt;li&gt;影响：实质安全测试非目标资产&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;静态Web
+&lt;ul&gt;
+&lt;li&gt;例子：大学学的html设计的网站&lt;/li&gt;
+&lt;li&gt;原理；数据没有传输性(js传输不算)&lt;/li&gt;
+&lt;li&gt;影响：无漏洞&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;伪静态
+&lt;ul&gt;
+&lt;li&gt;动态转为静态技术，伪装的静态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Web架构&amp;amp;OSS存储&amp;amp;负载均衡&amp;amp;CDN加速&amp;amp;反向代理&amp;amp;WAF防护&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;WAF防护-拦截安全攻击&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原理：Web应用防火墙，旨在提供保护&lt;/li&gt;
+&lt;li&gt;影响：常规Web安全测试手段会受到拦截&lt;/li&gt;
+&lt;li&gt;演示：免费D盾防护软件&lt;/li&gt;
+&lt;li&gt;Windows2012+IIS+D盾&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CDN节点-隐藏真实源IP&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原理：内容分发服务，旨在提高访问速度&lt;/li&gt;
+&lt;li&gt;影响：隐藏真实源IP，导致对目标测试错误&lt;/li&gt;
+&lt;li&gt;演示：阿里云备案域名全局CDN加速服务&lt;/li&gt;
+&lt;li&gt;Windows2012+BT宝塔面板+CDN服务&lt;/li&gt;
+&lt;li&gt;CDN加速准备好备案域名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;配置宝塔的域名绑定
+47.122.22.195 -&amp;gt; &lt;a class=&#34;link&#34; href=&#34;https://www.zoro8.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.zoro8.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;配置cdn加速选项&lt;/li&gt;
+&lt;li&gt;添加DNS CNAME记录&lt;/li&gt;
+&lt;li&gt;等待几分钟即可&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;OSS&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原理：云存储服务，旨在提高访问速度&lt;/li&gt;
+&lt;li&gt;影响：上传的文件或解析的文件均来自于OSS资源，无法解析，单独存储&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;修复上传安全&lt;/li&gt;
+&lt;li&gt;文件解析不一样&lt;/li&gt;
+&lt;li&gt;但Accesskey隐患&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;演示：https://cloudreve.org/&lt;/li&gt;
+&lt;li&gt;Windows2012+cloudreve+阿里云OSS&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/cloudreve/Cloudreve/releases/tag/3.7.1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/cloudreve/Cloudreve/releases/tag/3.7.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;启动应用&lt;/li&gt;
+&lt;li&gt;登录管理&lt;/li&gt;
+&lt;li&gt;配置存储信息&lt;/li&gt;
+&lt;li&gt;更改用户组存储属性&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;阿里云OSS:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;开通OSS&lt;/li&gt;
+&lt;li&gt;新建Bucket&lt;/li&gt;
+&lt;li&gt;配置Bucket属性&lt;/li&gt;
+&lt;li&gt;配置Access访问&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;为什么要使用第三方存储？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;静态文件会占用大量带宽&lt;/li&gt;
+&lt;li&gt;加载速度&lt;/li&gt;
+&lt;li&gt;存储空间&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;反向代理-内网应用转发&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;正向代理为客户端服务，客户端主动建立代理访问目标(不代理不可达)&lt;/li&gt;
+&lt;li&gt;反向代理为服务端服务，服务端主动转发数据给可访问地址(不主动不可达)&lt;/li&gt;
+&lt;li&gt;原理：通过网络反向代理转发真实服务达到访问目的&lt;/li&gt;
+&lt;li&gt;影响：访问目标只是一个代理，非真实应用服务器&lt;/li&gt;
+&lt;li&gt;注意：正向代理和反向代理都是解决访问不可达的问题，但由于反向代理中多出一个可以重定向解析的功能操作，导致反代理出的站点指向和真实应用毫无关系！&lt;/li&gt;
+&lt;li&gt;演示：Nginx反向代理配置&lt;/li&gt;
+&lt;li&gt;Windows2012+BT宝塔面板+Nginx&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;负载均衡-多台机器服务&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原理：分摊到多个操作单元上进行执行，共同完成工作任务&lt;/li&gt;
+&lt;li&gt;影响：有多个服务器加载服务，测试过程中存在多个目标情况&lt;/li&gt;
+&lt;li&gt;演示：Nginx负载均衡配置&lt;/li&gt;
+&lt;li&gt;Windows2012+BT宝塔面板+Nginx&lt;/li&gt;
+&lt;li&gt;定义负载设置
+upstream fzjh{
+server 47.94.236.117:80 weight=2;(权重)
+server 47.122.22.195:80 weight=1;
+}&lt;/li&gt;
+&lt;li&gt;定义访问路径 访问策略
+location / {
+proxy_pass http://fzjh/;
+}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>停止更新数据通信</title>
         <link>https://wzy-yaemiko.top/diary/%E5%81%9C%E6%AD%A2%E6%9B%B4%E6%96%B0%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1/</link>
         <pubDate>Wed, 02 Apr 2025 00:09:58 +0800</pubDate>
