@@ -7,7 +7,63 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>wzy朔夜观星</copyright>
-        <lastBuildDate>Sat, 05 Apr 2025 18:23:27 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/tags/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 06 Apr 2025 21:18:24 +0800</lastBuildDate><atom:link href="https://wzy-yaemiko.top/tags/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>基础入门app应用与微信小程序应用</title>
+        <link>https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Sun, 06 Apr 2025 21:18:24 +0800</pubDate>
+        
+        <guid>https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/</guid>
+        <description>&lt;img src="https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/zly2.jpg" alt="Featured image of post 基础入门app应用与微信小程序应用" /&gt;&lt;p&gt;&lt;img src=&#34;https://y.gtimg.cn/music/photo_new/T053M0000028Cb5q1wh3qr.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;APP架构&amp;amp;小程序&amp;amp;H5+Vue语言&amp;amp;Web封装&amp;amp;原生开发&amp;amp;Flutter&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;app应用开发架构&#34;&gt;APP应用开发架构：
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;原生开发
+安卓一般使用java语言开发，当然现在也有kotlin语言开发。如何开发就涉及到具体编程了，这里就不详细说了。简单描述就是使用安卓提供的一系列控件来实习页面，复杂点页面可以通过自定义控件来实现。&lt;/li&gt;
+&lt;li&gt;使用H5语言开发
+使用H5语言开发的好处有很多，可多端复用，比如浏览器端、ios端，当然H5开发的体验没有原生好的。结合经验来说，一般这个页面需要分享出去的话，就用H5开发。&lt;/li&gt;
+&lt;li&gt;使用flutter开发
+flutter是近年来谷歌推出的一款UI框架，使用dart语言进行开发，支持跨平台，weight渲染直接操作硬件层，体验可媲美原生。但是flutter技术比较新，生态还不完善，开发起来效率相对偏低。&lt;/li&gt;
+&lt;li&gt;常规Web开发
+Web App软件开发简单地说，就是开发一个网站，然后加入app的壳。Web App一般非常小，内容都是app内的网页展示，受制于网页技术本身，可实现功能少，而且每次打开，几乎所有的内容都需要重新加载，所以反应速度慢，内容加载过多就容易卡死，用户体验差，而且app内的交互设计等非常有效。但开发周期长，需要的技术人员少，成本低。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;app-开发架构-原生态-idea&#34;&gt;APP-开发架构-原生态-IDEA
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;演示：remusic 项目源码&lt;/li&gt;
+&lt;li&gt;安全影响：
+&lt;ol&gt;
+&lt;li&gt;反编译&amp;amp;抓包&amp;amp;常规测试&lt;/li&gt;
+&lt;li&gt;逆向的角度去分析逻辑设计安全&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;app-开发架构-web封装-封装平台&#34;&gt;APP-开发架构-Web封装-封装平台
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;演示：ShopXO源代码程序+一门APP打包&lt;/li&gt;
+&lt;li&gt;安全影响：常规Web安全测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;app-开发架构--h5vue-hbuilderx&#34;&gt;APP-开发架构- H5&amp;amp;Vue-HBuilderX
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;演示：HBuilderX案例&lt;/li&gt;
+&lt;li&gt;安全影响：API&amp;amp;JS框架安全问题&amp;amp;JS前端测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;微信小程序-开发框架--web封装-平台&#34;&gt;微信小程序-开发框架- Web封装-平台
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;演示：ShopXO源码程序+一门APP打包&lt;/li&gt;
+&lt;li&gt;安全影响：常规Web安全测试&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>基础入门web应用</title>
         <link>https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8web%E5%BA%94%E7%94%A8/</link>
         <pubDate>Sat, 05 Apr 2025 18:23:27 +0800</pubDate>
@@ -25,7 +81,7 @@
 &gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Web应用&amp;amp;架构搭建&amp;amp;站库分离&amp;amp;路由访问&amp;amp;配置受限&amp;amp;DNS解析&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;span style=&#34;background:#fff88f&#34;&gt;常规Web应用搭建步骤：&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;background:#ff4d4f&#34;&gt;常规Web应用搭建步骤：&lt;/span&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;购买云服务器，购买域名&lt;/li&gt;
 &lt;li&gt;云服务器去搭建中间件&lt;/li&gt;
